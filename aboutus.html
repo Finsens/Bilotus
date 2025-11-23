@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tentang Kami - [Nama Perusahaan]</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="font-open-sans bg-[var(--color-deep-blue)] text-[var(--color-lightest)]">
+
+  <!-- Header -->
+  <header class="shadow-sm sticky top-0 z-50 bg-gradient-to-r from-[var(--color-golden-yellow)] to-[var(--color-lightest)]">
+    <div class="container mx-auto px-4 py-0 flex justify-between items-center">
+      <div class="flex items-center">
+        <img src="image/Logo.png" alt="Logo" class="h-16 w-16">
+        <img src="image/Logo (2).png" alt="Nama PT" class="h-auto w-24">
+      </div>
+        <!-- NAV Desktop -->
+    <nav class="hidden md:flex space-x-8">
+      <a href="index.html#home" class="nav-link text-[var(--color-deep-blue)] font-semibold">Home</a>
+      <a href="aboutus.html" class="nav-link text-[var(--color-deep-blue)] font-semibold">About Us</a>
+      <a href="services.html" class="nav-link text-[var(--color-deep-blue)] font-semibold">Services</a>
+      <a href="clients.html" class="nav-link text-[var(--color-deep-blue)] font-semibold">Clients</a>
+      <a href="gallery.html" class="nav-link text-[var(--color-deep-blue)] font-semibold">Gallery</a>
+      <a href="index.html#contact" class="nav-link text-[var(--color-deep-blue)] font-semibold">Contact</a>
+    </nav>
+      <!-- Hamburger Mobile -->
+      <button id="hamburger" class="md:hidden text-2xl text-[var(--color-deep-blue)]">
+      <i class="fas fa-bars"></i>
+      </button>
+    </div>
+      <!-- NAV Mobile (Dropdown) -->
+  <nav id="mobileMenu" class="hidden flex-col space-y-4 px-4 py-4 bg-[var(--color-lightest)] md:hidden shadow-lg">
+    <a href="index.html#home" class="block text-[var(--color-deep-blue)] font-semibold">Home</a>
+    <a href="aboutus.html" class="block text-[var(--color-deep-blue)] font-semibold">About Us</a>
+    <a href="services.html" class="block text-[var(--color-deep-blue)] font-semibold">Services</a>
+    <a href="clients.html" class="block text-[var(--color-deep-blue)] font-semibold">Clients</a>
+    <a href="gallery.html" class="block text-[var(--color-deep-blue)] font-semibold">Gallery</a>
+    <a href="index.html#contact" class="block text-[var(--color-deep-blue)] font-semibold">Contact</a>
+  </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-[var(--color-deep-blue)] to-[var(--color-muted-blue)]">
+    <div class="container mx-auto px-4 text-center py-20">
+      <h1 class="text-4xl md:text-5xl font-bold font-poppins mb-6 animate-fade-in-up">
+        About Our Company
+      </h1>
+      <p class="text-xl text-[var(--color-golden-yellow)] max-w-3xl mx-auto animate-fade-in-up animation-delay-200">
+        Bilotus is a management consultant specializing in Human Resources services. We have been operating since 2016, focusing on assisting clients in achieving their set goals. We have served a diverse range of clients, including government entities, state-owned enterprises, private companies, educational institutions, and other non-profit organizations.
+        We are committed to providing solutions that meet our clients' needs.
+      </p>
+      <p class="text-xl text-[var(--color-golden-yellow)] max-w-3xl mx-auto animate-fade-in-up animation-delay-200">
+        Bilotus is inspired by the philosophy of the lotus flower, which symbolizes purity, resilience, and hidden potential. The lotus grows in murky and muddy waters, yet it blossoms into a beautiful and pristine flower above the surface. This philosophy reflects our belief that every individual possesses extraordinary potential, even if it is hidden or obscured by challenges and difficult circumstances.
+      </p>
+    </div>
+  </section>
+
+  <!-- Timeline / Sejarah -->
+  <section class="bg-[var(--color-lightest)] text-[var(--color-deep-blue)]">
+    <div class="container mx-auto px-4 py-16">
+      <div class="text-center mb-12">
+        <h2 class="text-5xl md:text-4xl font-bold font-poppins mb-4">Our Tagline</h2>
+        <h3 class="text-3xl font-bold"style="font-style: italic;font-family: 'Times New Roman', Times, serif;">Discover, Develop, Optimize</h3>
+        <div class="w-24 h-1.5 mx-auto rounded-full bg-[var(--color-golden-yellow)]"></div>
+      </div>
+      <div class="space-y-12 max-w-4xl mx-auto">
+        <div>
+          <p class="text-lg leading-relaxed">
+            Inspired by the philosophy of the lotus flower, Bilotus is here to support companies in building organizational excellence through comprehensive competency development.
+          </p>
+        </div>
+        <div>
+          <h2 class="text-1xl font-semibold mb-2" style="font-style: italic;">"Discover, Develop, Optimize: Building Competencies That Drive Business Excellence"</h2>
+        </div>
+        <div>
+          <p class="text-lg leading-relaxed">
+            Reflects our comprehensive approach to human capital management through Technical, Behavioral, and Core competency development framework.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-gradient-to-r from-[var(--color-golden-yellow)] to-[var(--color-lightest)] text-[var(--color-deep-blue)]">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-4">Our five core services create a complete talent management cycle through integrated competency development:</h2>
+          <ul class="list-disc pl-6 space-y-2 text-left">
+            <div class="p-8 rounded-xl shadow-lef service-card bg-[var(--color-lightest)]">
+            <li class="text-2xl font-bold">Discover</li>
+            <p>We help organizations identify and understand talent through Bilotus Integrated Talent Assessment (comprehensive assessment of individual potential and competencies) and Bilotus Talent Search (identification and recruitment of exceptional talent aligned with organizational needs).</p>
+            </div>
+            <div class="p-8 rounded-xl shadow-lef service-card bg-[var(--color-lightest)]">
+            <li class="text-2xl font-bold">Develop</li>
+            <p>We enhance capabilities and strengthen teams through Bilotus Talent Academy (structured development programs with blended learning delivery) and Bilotus Talent Expedition (experiential learning through outdoor activities and team challenges).</p>
+            </div>
+            <div class="p-8 rounded-xl shadow-lef service-card bg-[var(--color-lightest)]">
+            <li class="text-2xl font-bold">Optimize</li>
+            <p>We optimize talent utilization and organizational effectiveness through Bilotus Strategic Advisory (expert guidance on human capital strategy and organizational transformation).</p>
+            </div>
+            </ul>
+      </div>
+      <a href="index.html#services" class="btn-gradient inline-flex items-center">
+        Lihat Layanan Kami
+        <i class="fas fa-arrow-right ml-2"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-12 bg-[var(--color-deep-blue)] text-center">
+    <p class="text-lg text-[var(--color-lightest)]">&copy; 2025 [Nama Perusahaan]. All rights reserved.</p>
+  </footer>
+
+  <!-- Back to Top -->
+  <button id="backToTop" class="fixed bottom-6 right-6 p-3 rounded-full bg-[var(--color-golden-yellow)] text-[var(--color-deep-blue)] shadow-lg invisible">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

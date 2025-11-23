@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bilotus Consulting - HR Solutions</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="font-open-sans bg-[var(--color-deep-blue)] text-[var(--color-lightest)]">
+
+  <!-- Header -->
+  <header class="shadow-sm sticky top-0 z-50 bg-gradient-to-r from-[var(--color-golden-yellow)] to-[var(--color-lightest)]">
+    <div class="container mx-auto px-4 py-0 flex justify-between items-center">
+      <div class="flex items-center">
+        <img src="image/Logo.png" alt="Logo Bilotus" class="h-16 w-16">
+        <img src="image/Logo (2).png" alt="Nama PT" class="h-auto w-24">
+      </div>    
+      <!-- NAV Desktop -->
+    <nav class="hidden md:flex space-x-8">
+      <a href="index.html#home" class="nav-link text-[var(--color-deep-blue)] font-semibold">Home</a>
+      <a href="aboutus.html" class="nav-link text-[var(--color-deep-blue)] font-semibold">About Us</a>
+      <a href="services.html" class="nav-link text-[var(--color-deep-blue)] font-semibold">Services</a>
+      <a href="clients.html" class="nav-link text-[var(--color-deep-blue)] font-semibold">Clients</a>
+      <a href="gallery.html" class="nav-link text-[var(--color-deep-blue)] font-semibold">Gallery</a>
+      <a href="index.html#contact" class="nav-link text-[var(--color-deep-blue)] font-semibold">Contact</a>
+    </nav>
+      <!-- Hamburger Mobile -->
+      <button id="hamburger" class="md:hidden text-2xl text-[var(--color-deep-blue)]">
+      <i class="fas fa-bars"></i>
+      </button>
+    </div>
+      <!-- NAV Mobile (Dropdown) -->
+  <nav id="mobileMenu" class="hidden flex-col space-y-4 px-4 py-4 bg-[var(--color-lightest)] md:hidden shadow-lg">
+    <a href="index.html#home" class="block text-[var(--color-deep-blue)] font-semibold">Home</a>
+    <a href="aboutus.html" class="block text-[var(--color-deep-blue)] font-semibold">About Us</a>
+    <a href="services.html" class="block text-[var(--color-deep-blue)] font-semibold">Services</a>
+    <a href="clients.html" class="block text-[var(--color-deep-blue)] font-semibold">Clients</a>
+    <a href="gallery.html" class="block text-[var(--color-deep-blue)] font-semibold">Gallery</a>
+    <a href="index.html#contact" class="block text-[var(--color-deep-blue)] font-semibold">Contact</a>
+  </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="bg-gradient-to-r from-[var(--color-deep-blue)] to-[var(--color-muted-blue)]">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+      <div class="md:w-1/2 mb-12 md:mb-0 text-center md:text-left">
+        <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight font-poppins animate-fade-in-up text-[var(--color-lightest)]">
+          Discover, Develop, Optimize
+        </h1>
+        <p class="text-xl md:text-2xl mb-8 text-[var(--color-golden-yellow)] animate-fade-in-up animation-delay-200">
+          Building Competencies That Drive Business Excellence
+        </p>
+        <div class="flex justify-center md:justify-start space-x-4">
+          <a href="#services" class="btn-primary">Our Services</a>
+          <a href="#contact" class="btn-secondary">Contact Us</a>
+        </div>
+      </div>
+      <div class="md:w-1/2 flex justify-center">
+        <img src="image/gambar 2.png" alt="Professional team" class="rounded-lg shadow-2xl max-w-full h-auto transform hover:scale-105 transition-transform duration-300 lotus-animation">
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 font-poppins text-[var(--color-lightest)]">About Bilotus Consulting</h2>
+        <div class="w-24 h-1.5 mx-auto rounded-full bg-[var(--color-golden-yellow)]"></div>
+      </div>
+      <div class="flex flex-col md:flex-row items-center gap-12">
+        <div class="md:w-1/2">
+          <img src="image/gambar 3.jpg" alt="Lotus flower" class="rounded-lg shadow-lg w-full h-auto transform hover:scale-105 transition-transform duration-300">
+        </div>
+        <div class="md:w-1/2 text-center md:text-left">
+          <p class="mb-6 leading-relaxed text-lg text-[var(--color-lightest)]">
+            Bilotus is a management consultant specializing in Human Resources services. We have been operating since 2016, focusing on assisting clients in achieving their set goals.
+          </p>
+          <p class="mb-6 leading-relaxed text-lg text-[var(--color-lightest)]">
+            Bilotus is inspired by the philosophy of the lotus flower, which symbolizes purity, resilience, and hidden potential.
+          </p>
+        </div>
+        <div class="text-center mt-8">
+          <a href="aboutus.html" class="btn-outline inline-flex items-center">
+          Click For More
+          <i class="fas fa-leaf ml-2"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="bg-gradient-to-r from-[var(--color-golden-yellow)] to-[var(--color-lightest)]">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 font-poppins text-[var(--color-deep-blue)]">Our Five Integrated Service Areas</h2>
+        <div class="w-24 h-1.5 mx-auto rounded-full bg-[var(--color-deep-blue)]"></div>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div class="p-8 rounded-xl shadow-lg service-card bg-[var(--color-lightest)]">
+          <div class="w-16 h-16 rounded-full flex items-center justify-center mb-6 text-3xl bg-[var(--color-golden-yellow)] text-[var(--color-deep-blue)]">
+            <i class="fas fa-clipboard-check"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)]">Bilotus Integrated Talent Assessment</h3>
+          <p class="text-[var(--color-muted-blue)]">Assessment solutions for comprehensive talent evaluation using psychometric and competency-based methodologies.</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="p-8 rounded-xl shadow-lg service-card bg-[var(--color-lightest)]">
+          <div class="w-16 h-16 rounded-full flex items-center justify-center mb-6 text-3xl bg-[var(--color-golden-yellow)] text-[var(--color-deep-blue)]">
+            <i class="fas fa-search"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)]">Bilotus Talent Search</h3>
+          <p class="text-[var(--color-muted-blue)]">Strategic talent acquisition identifying exceptional candidates aligned with organizational culture and business objectives.</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="p-8 rounded-xl shadow-lg service-card bg-[var(--color-lightest)]">
+          <div class="w-16 h-16 rounded-full flex items-center justify-center mb-6 text-3xl bg-[var(--color-golden-yellow)] text-[var(--color-deep-blue)]">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)]">Bilotus Talent Academy</h3>
+          <p class="text-[var(--color-muted-blue)]">Structured blended learning programs enhancing all competency areas through systematic training and certification.</p>
+        </div>
+        <!-- Card 4 -->
+        <div class="p-8 rounded-xl shadow-lg service-card bg-[var(--color-lightest)]">
+          <div class="w-16 h-16 rounded-full flex items-center justify-center mb-6 text-3xl bg-[var(--color-golden-yellow)] text-[var(--color-deep-blue)]">
+            <i class="fas fa-mountain"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)]">Bilotus Talent Expedition</h3>
+          <p class="text-[var(--color-muted-blue)]">Experiential outdoor development focusing on behavioral and cultural competencies through adventure-based learning.</p>
+        </div>
+        <!-- Card 5 -->
+        <div class="p-8 rounded-xl shadow-lg service-card bg-[var(--color-lightest)]">
+          <div class="w-16 h-16 rounded-full flex items-center justify-center mb-6 text-3xl bg-[var(--color-golden-yellow)] text-[var(--color-deep-blue)]">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)]">Bilotus Strategic Advisory</h3>
+          <p class="text-[var(--color-muted-blue)]">Comprehensive HR consulting and organizational development services aligning talent strategies with business growth.</p>
+        </div>
+      </div>
+      <div class="text-center mt-12">
+        <a href="services.html" class="btn-gradient inline-flex items-center">
+          Click For More
+          <i class="fas fa-cogs ml-2"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clients -->
+  <section id="clients" class="bg-gradient-to-r from-[var(--color-muted-blue)] to-[var(--color-deep-blue)]">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 font-poppins text-[var(--color-lightest)]">Our Esteemed Clients</h2>
+        <p class="text-xl max-w-3xl mx-auto text-[var(--color-golden-yellow)]">We've had the privilege of serving organizations across various industries.</p>
+        <div class="w-24 h-1.5 mx-auto rounded-full mt-4 bg-[var(--color-lightest)]"></div>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 items-center justify-center">
+        <div class="p-4 rounded-lg shadow-md flex items-center justify-center h-24 bg-[var(--color-golden-yellow)]">
+          <p class="font-semibold text-center text-[var(--color-deep-blue)]">Anugerah Pharmindo Lestari</p>
+        </div>
+        <div class="p-4 rounded-lg shadow-md flex items-center justify-center h-24 bg-[var(--color-golden-yellow)]">
+          <p class="font-semibold text-center text-[var(--color-deep-blue)]">Bank Aceh</p>
+        </div>
+        <div class="p-4 rounded-lg shadow-md flex items-center justify-center h-24 bg-[var(--color-golden-yellow)]">
+          <p class="font-semibold text-center text-[var(--color-deep-blue)]">Bank Danamon</p>
+        </div>
+        <div class="p-4 rounded-lg shadow-md flex items-center justify-center h-24 bg-[var(--color-golden-yellow)]">
+          <p class="font-semibold text-center text-[var(--color-deep-blue)]">JNE</p>
+        </div>
+        <div class="p-4 rounded-lg shadow-md flex items-center justify-center h-24 bg-[var(--color-golden-yellow)]">
+          <p class="font-semibold text-center text-[var(--color-deep-blue)]">Kawan Lama Sejahtera</p>
+        </div>
+        <div class="p-4 rounded-lg shadow-md flex items-center justify-center h-24 bg-[var(--color-golden-yellow)]">
+          <p class="font-semibold text-center text-[var(--color-deep-blue)]">Kimia Farma Group</p>
+        </div>
+        <div class="p-4 rounded-lg shadow-md flex items-center justify-center h-24 bg-[var(--color-golden-yellow)]">
+          <p class="font-semibold text-center text-[var(--color-deep-blue)]">Kompas Gramedia</p>
+        </div>
+        <div class="p-4 rounded-lg shadow-md flex items-center justify-center h-24 bg-[var(--color-golden-yellow)]">
+          <p class="font-semibold text-center text-[var(--color-deep-blue)]">Krama Yudha Tiga Berlian</p>
+        </div>
+      </div>
+      <div class="text-center mt-12">
+          <a href="clients.html" class="btn-fun inline-flex items-center group">
+          Click For More
+          <i class="fas fa-arrow-right ml-2 transition-transform duration-200 group-hover:translate-x-1"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-gradient-to-r from-[var(--color-lightest)] to-[var(--color-golden-yellow)]">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 font-poppins text-[var(--color-deep-blue)]">Contact Us</h2>
+        <p class="text-xl max-w-3xl mx-auto text-[var(--color-muted-blue)]">We'd love to hear from you.</p>
+        <div class="w-24 h-1.5 mx-auto rounded-full mt-4 bg-[var(--color-deep-blue)]"></div>
+      </div>
+      <div class="flex flex-col lg:flex-row gap-12 justify-center">
+        <div class="lg:w-1/2">
+          <div class="p-8 rounded-xl shadow-lg h-full bg-[var(--color-lightest)]">
+            <h3 class="text-2xl font-semibold mb-6 font-poppins text-[var(--color-deep-blue)]">Contact Information</h3>
+            <p class="text-lg text-[var(--color-muted-blue)]">Email: info@bilotusconsulting.com</p>
+            <p class="text-lg text-[var(--color-muted-blue)]">Phone: +62 812 3456 7890</p>
+          </div>
+        </div>
+      </div>
+      <div class="mt-12 md:mt-8 lg:mt-4 grid grid-cols-2 gap-12 items-stretch justify-center">
+        <!-- Box 1: WhatsApp -->
+        <div class="p-8 rounded-xl shadow-2xl flex flex-col items-center justify-center bg-[var(--color-lightest)] h-full">
+          <a href="https://wa.me/08161627713" target="_blank">  
+            <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)] hover:scale-110 transition-transform duration-300">
+              Click To The Chat
+            </h3>
+          </a>
+          <a href="https://wa.me/08161627713" target="_blank">
+            <img src="image/logo wa.png" alt="WhatsApp" class="w-24 h-24 hover:scale-110 transition-transform duration-300">
+          </a>
+        </div>
+
+        <!-- Box 2: Gmail -->
+        <div class="p-8 rounded-xl shadow-2xl flex flex-col items-center justify-center bg-[var(--color-lightest)] h-full">
+          <a href="mailto:finsensius2007@gmail.com" target="_blank">  
+            <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)] hover:scale-110 transition-transform duration-300">
+              Click To The Chat
+            </h3>
+          </a>
+          <a href="mailto:finsensius2007@gmail.com" target="_blank">
+            <img src="image/logo gmail.svg" alt="Gmail" class="w-24 h-16 hover:scale-110 transition-transform duration-300">
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-12 bg-[var(--color-deep-blue)]">
+    <div class="container mx-auto px-4 text-center">
+      <p class="text-lg text-[var(--color-lightest)]">&copy; 2023 Bilotus Consulting. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="fixed bottom-6 right-6 p-3 rounded-full bg-[var(--color-golden-yellow)] text-[var(--color-deep-blue)] shadow-lg invisible">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
