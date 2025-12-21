@@ -1,0 +1,49 @@
+{
+  "nav_home": "Home",
+  "nav_about": "About Us",
+  "nav_services": "Services",
+  "nav_clients": "Clients",
+  "nav_gallery": "Gallery",
+  "nav_contact": "Contact",
+
+  "hero_title": "Discover, Develop, Optimize",
+  "hero_subtitle": "Building competencies that drive sustainable business excellence",
+
+  "about_home_title": "About Bilotus Consulting",
+  "about_home_desc_1": "Bilotus is a management consulting firm specializing in Human Resources services. Established in 2016, we focus on supporting clients in achieving their strategic and organizational objectives.",
+  "about_home_desc_2": "Bilotus is inspired by the philosophy of the lotus flower, symbolizing purity, resilience, and hidden potential.",
+  "about_home_cta": "Learn More",
+
+  "services_title": "Our Five Integrated Service Areas",
+
+  "services_card1_title": "Bilotus Integrated Talent Assessment",
+  "services_card1_desc": "Comprehensive assessment solutions designed to evaluate talent using psychometric and competency-based methodologies.",
+
+  "services_card2_title": "Bilotus Talent Search",
+  "services_card2_desc": "Strategic talent acquisition services focused on identifying high-quality candidates aligned with organizational culture and business objectives.",
+
+  "services_card3_title": "Bilotus Talent Academy",
+  "services_card3_desc": "Structured and blended learning programs aimed at enhancing competencies through systematic training and certification.",
+
+  "services_card4_title": "Bilotus Talent Expedition",
+  "services_card4_desc": "Experiential outdoor development programs emphasizing behavioral and cultural competencies through immersive learning experiences.",
+
+  "services_card5_title": "Bilotus Strategic Advisory",
+  "services_card5_desc": "Human Resources consulting and organizational development services that align talent strategies with sustainable business growth.",
+
+  "services_cta": "View More",
+
+  "clients_title": "Our Valued Clients",
+  "clients_subtitle": "We are trusted by organizations across a wide range of industries.",
+  "clients_cta": "View More",
+
+  "contact_title": "Contact Us",
+  "contact_subtitle": "We would be pleased to hear from you.",
+  "contact_info_title": "Contact Information",
+  "contact_email_label": "Email : @bilotusconsulting.com",
+  "contact_phone_label": "Phone : +62 812 3456 7890",
+  "contact_gmail": "Click To Go Our Gmail",
+  "contact_wa": "Click To Go Our WhatsApp",
+
+  "footer_copyright": "© 2023 Bilotus Consulting. All rights reserved."
+}

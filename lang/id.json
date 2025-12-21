@@ -1,0 +1,49 @@
+{
+  "nav_home": "Beranda",
+  "nav_about": "Tentang Kami",
+  "nav_services": "Layanan",
+  "nav_clients": "Klien",
+  "nav_gallery": "Galeri",
+  "nav_contact": "Kontak",
+
+  "hero_title": "Temukan, Kembangkan, Optimalkan",
+  "hero_subtitle": "Membangun kompetensi yang mendorong keunggulan bisnis berkelanjutan",
+
+  "about_home_title": "Tentang Bilotus Consulting",
+  "about_home_desc_1": "Bilotus adalah perusahaan konsultan manajemen yang berfokus pada layanan Sumber Daya Manusia. Didirikan pada tahun 2016, kami berfokus untuk mendukung klien dalam mencapai tujuan strategis dan organisasi mereka.",
+  "about_home_desc_2": "Bilotus terinspirasi dari filosofi bunga teratai yang melambangkan kemurnian, ketangguhan, serta potensi tersembunyi.",
+  "about_home_cta": "Klit Untuk Lebih Lanjut",
+
+  "services_title": "Lima Area Layanan Terintegrasi Kami",
+
+  "services_card1_title": "Bilotus Integrated Talent Assessment",
+  "services_card1_desc": "Solusi asesmen yang komprehensif untuk mengevaluasi talenta melalui metodologi psikometrik dan berbasis kompetensi.",
+
+  "services_card2_title": "Bilotus Talent Search",
+  "services_card2_desc": "Layanan akuisisi talenta strategis yang berfokus pada identifikasi kandidat berkualitas tinggi yang selaras dengan budaya organisasi dan tujuan bisnis.",
+
+  "services_card3_title": "Bilotus Talent Academy",
+  "services_card3_desc": "Program pembelajaran terstruktur dan blended learning yang dirancang untuk meningkatkan kompetensi melalui pelatihan dan sertifikasi yang sistematis.",
+
+  "services_card4_title": "Bilotus Talent Expedition",
+  "services_card4_desc": "Program pengembangan berbasis pengalaman di alam terbuka yang menekankan kompetensi perilaku dan budaya melalui pembelajaran yang imersif.",
+
+  "services_card5_title": "Bilotus Strategic Advisory",
+  "services_card5_desc": "Layanan konsultasi Sumber Daya Manusia dan pengembangan organisasi yang menyelaraskan strategi talenta dengan pertumbuhan bisnis yang berkelanjutan.",
+
+  "services_cta": "Lihat Selengkapnya",
+
+  "clients_title": "Klien Terpercaya Kami",
+  "clients_subtitle": "Kami dipercaya oleh berbagai organisasi dari beragam industri.",
+  "clients_cta": "Lihat Selengkapnya",
+
+  "contact_title": "Hubungi Kami",
+  "contact_subtitle": "Kami dengan senang hati mendengar dari Anda.",
+  "contact_info_title": "Informasi Kontak",
+  "contact_email_label": "Email : @bilotusconsulting.com",
+  "contact_phone_label": "Telepon : +62 812 3456 7890",
+  "contact_gmail": "Tekan Untuk Menuju Gmail Kami",
+  "contact_wa": "Tekan Untuk Menuju WhatsApp Kami",
+
+  "footer_copyright": "© 2023 Bilotus Consulting. Seluruh hak cipta dilindungi."
+}
