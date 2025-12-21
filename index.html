@@ -6,17 +6,16 @@
   <title>Bilotus Consulting - HR Solutions</title>
 
   <link rel="icon" href="favicon.ico">
-  <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
-  <link rel="mask-icon" href="image/android-chrome-192x192" color="#f6c84c">
- 
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+    <link rel="mask-icon" href="image/android-chrome-192x192" color="#f6c84c">
+
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
-</head>
-<body class="font-open-sans bg-[var(--color-deep-blue)] text-[var(--color-lightest)]">
 
+</head>
   <!-- Header -->
   <header class="shadow-sm sticky top-0 z-50 bg-gradient-to-r from-[var(--color-golden-yellow)] to-[var(--color-lightest)]">
     <div class="container mx-auto px-4 py-0 flex justify-between items-center">
@@ -26,13 +25,30 @@
       </div>    
       <!-- NAV Desktop -->
     <nav class="hidden md:flex space-x-8">
-      <a href="index.html#home" class="nav-link text-[var(--color-deep-blue)] font-semibold">Home</a>
-      <a href="aboutus.html" class="nav-link text-[var(--color-deep-blue)] font-semibold">About Us</a>
-      <a href="services.html" class="nav-link text-[var(--color-deep-blue)] font-semibold">Services</a>
-      <a href="clients.html" class="nav-link text-[var(--color-deep-blue)] font-semibold">Clients</a>
-      <a href="gallery.html" class="nav-link text-[var(--color-deep-blue)] font-semibold">Gallery</a>
-      <a href="index.html#contact" class="nav-link text-[var(--color-deep-blue)] font-semibold">Contact</a>
+      <a href="index.html#home" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_home">Home</a>
+      <a href="aboutus.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_about">About Us</a>
+      <a href="services.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_services">Services</a>
+      <a href="clients.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_clients">Clients</a>
+      <a href="gallery.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_gallery">Gallery</a>
+      <a href="index.html#contact" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_contact">Contact</a>
     </nav>
+    <div class="hidden md:flex items-center gap-2 ml-4">
+      <button
+        onclick="setLanguage('id')"
+            class="px-2 py-1 text-sm font-bold text-[var(--color-deep-blue)] bg-[var(--color-golden-yellow)] rounded"
+  >
+      ID
+    </button>
+
+    <button
+      onclick="setLanguage('en')"
+          class="px-2 py-1 text-sm font-bold text-[var(--color-deep-blue)] bg-[var(--color-golden-yellow)] rounded"
+    >
+      EN
+    </button>
+    </div>
+
+
       <!-- Hamburger Mobile -->
       <button id="hamburger" class="md:hidden text-2xl text-[var(--color-deep-blue)]">
       <i class="fas fa-bars"></i>
@@ -40,12 +56,17 @@
     </div>
       <!-- NAV Mobile (Dropdown) -->
   <nav id="mobileMenu" class="hidden flex-col space-y-4 px-4 py-4 bg-[var(--color-lightest)] md:hidden shadow-lg">
-    <a href="index.html#home" class="block text-[var(--color-deep-blue)] font-semibold">Home</a>
-    <a href="aboutus.html" class="block text-[var(--color-deep-blue)] font-semibold">About Us</a>
-    <a href="services.html" class="block text-[var(--color-deep-blue)] font-semibold">Services</a>
-    <a href="clients.html" class="block text-[var(--color-deep-blue)] font-semibold">Clients</a>
-    <a href="gallery.html" class="block text-[var(--color-deep-blue)] font-semibold">Gallery</a>
-    <a href="index.html#contact" class="block text-[var(--color-deep-blue)] font-semibold">Contact</a>
+    <a href="index.html#home" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_home">Home</a>
+      <a href="aboutus.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_about">About Us</a>
+      <a href="services.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_services">Services</a>
+      <a href="clients.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_clients">Clients</a>
+      <a href="gallery.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_gallery">Gallery</a>
+      <a href="index.html#contact" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_contact">Contact</a>
+      
+    <div class="hidden md:flex items-center gap-2 ml-4">
+      <button onclick="setLanguage('id')" class="px-2 font-semibold">ID</button>
+      <button onclick="setLanguage('en')" class="px-2 font-semibold">EN</button>
+    </div>
   </nav>
   </header>
 
@@ -53,10 +74,10 @@
   <section id="home" class="bg-gradient-to-r from-[var(--color-deep-blue)] to-[var(--color-muted-blue)]">
     <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
       <div class="md:w-1/2 mb-12 md:mb-0 text-center md:text-left">
-        <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight font-poppins animate-fade-in-up text-[var(--color-lightest)]">
+        <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight font-poppins animate-fade-in-up text-[var(--color-lightest)]" data-i18n="hero_title">
           Discover, Develop, Optimize
         </h1>
-        <p class="text-xl md:text-2xl mb-8 text-[var(--color-golden-yellow)] animate-fade-in-up animation-delay-200">
+        <p class="text-xl md:text-2xl mb-8 text-[var(--color-golden-yellow)] animate-fade-in-up animation-delay-200" data-i18n="hero_subtitle">
           Building Competencies That Drive Business Excellence
         </p>
         <div class="flex justify-center md:justify-start space-x-4">
@@ -74,7 +95,7 @@
   <section id="about">
     <div class="container mx-auto px-4">
       <div class="text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4 font-poppins text-[var(--color-lightest)]">About Bilotus Consulting</h2>
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 font-poppins text-[var(--color-lightest)]" data-i18n="aboit_home_title">About Bilotus Consulting</h2>
         <div class="w-24 h-1.5 mx-auto rounded-full bg-[var(--color-golden-yellow)]"></div>
       </div>
       <div class="flex flex-col md:flex-row items-center gap-12">
@@ -82,15 +103,15 @@
           <img src="image/gambar 3.jpg" alt="Lotus flower" class="rounded-lg shadow-lg w-full h-auto transform hover:scale-105 transition-transform duration-300">
         </div>
         <div class="md:w-1/2 text-center md:text-left">
-          <p class="mb-6 leading-relaxed text-lg text-[var(--color-lightest)]">
+          <p class="mb-6 leading-relaxed text-lg text-[var(--color-lightest)]" data-i18n="about_home_desc_1">
             Bilotus is a management consultant specializing in Human Resources services. We have been operating since 2016, focusing on assisting clients in achieving their set goals.
           </p>
-          <p class="mb-6 leading-relaxed text-lg text-[var(--color-lightest)]">
+          <p class="mb-6 leading-relaxed text-lg text-[var(--color-lightest)]" data-i18n="about_home_desc_2">
             Bilotus is inspired by the philosophy of the lotus flower, which symbolizes purity, resilience, and hidden potential.
           </p>
         </div>
         <div class="text-center mt-8">
-          <a href="aboutus.html" class="btn-outline inline-flex items-center">
+          <a href="aboutus.html" class="btn-outline inline-flex items-center" data-i18n="about_home_cta">
           Click For More
           <i class="fas fa-leaf ml-2"></i>
           </a>
@@ -103,7 +124,7 @@
   <section id="services" class="bg-gradient-to-r from-[var(--color-golden-yellow)] to-[var(--color-lightest)]">
     <div class="container mx-auto px-4">
       <div class="text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4 font-poppins text-[var(--color-deep-blue)]">Our Five Integrated Service Areas</h2>
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 font-poppins text-[var(--color-deep-blue)]" data-i18n="services_title">Our Five Integrated Service Areas</h2>
         <div class="w-24 h-1.5 mx-auto rounded-full bg-[var(--color-deep-blue)]"></div>
       </div>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -112,44 +133,44 @@
           <div class="w-16 h-16 rounded-full flex items-center justify-center mb-6 text-3xl bg-[var(--color-golden-yellow)] text-[var(--color-deep-blue)]">
             <i class="fas fa-clipboard-check"></i>
           </div>
-          <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)]">Bilotus Integrated Talent Assessment</h3>
-          <p class="text-[var(--color-muted-blue)]">Assessment solutions for comprehensive talent evaluation using psychometric and competency-based methodologies.</p>
+          <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)]" data-i18n="services_card1_title">Bilotus Integrated Talent Assessment</h3>
+          <p class="text-[var(--color-muted-blue)]" data-i18n="services_card1_desc">Assessment solutions for comprehensive talent evaluation using psychometric and competency-based methodologies.</p>
         </div>
         <!-- Card 2 -->
         <div class="p-8 rounded-xl shadow-lg service-card bg-[var(--color-lightest)]">
           <div class="w-16 h-16 rounded-full flex items-center justify-center mb-6 text-3xl bg-[var(--color-golden-yellow)] text-[var(--color-deep-blue)]">
             <i class="fas fa-search"></i>
           </div>
-          <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)]">Bilotus Talent Search</h3>
-          <p class="text-[var(--color-muted-blue)]">Strategic talent acquisition identifying exceptional candidates aligned with organizational culture and business objectives.</p>
+          <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)]" data-i18n="services_card2_title">Bilotus Talent Search</h3>
+          <p class="text-[var(--color-muted-blue)]" data-i18n="services_card2_desc">Strategic talent acquisition identifying exceptional candidates aligned with organizational culture and business objectives.</p>
         </div>
         <!-- Card 3 -->
         <div class="p-8 rounded-xl shadow-lg service-card bg-[var(--color-lightest)]">
           <div class="w-16 h-16 rounded-full flex items-center justify-center mb-6 text-3xl bg-[var(--color-golden-yellow)] text-[var(--color-deep-blue)]">
             <i class="fas fa-graduation-cap"></i>
           </div>
-          <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)]">Bilotus Talent Academy</h3>
-          <p class="text-[var(--color-muted-blue)]">Structured blended learning programs enhancing all competency areas through systematic training and certification.</p>
+          <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)]" data-i18n="services_card3_title">Bilotus Talent Academy</h3>
+          <p class="text-[var(--color-muted-blue)]" data-i18n="services_card3_desc">Structured blended learning programs enhancing all competency areas through systematic training and certification.</p>
         </div>
         <!-- Card 4 -->
         <div class="p-8 rounded-xl shadow-lg service-card bg-[var(--color-lightest)]">
           <div class="w-16 h-16 rounded-full flex items-center justify-center mb-6 text-3xl bg-[var(--color-golden-yellow)] text-[var(--color-deep-blue)]">
             <i class="fas fa-mountain"></i>
           </div>
-          <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)]">Bilotus Talent Expedition</h3>
-          <p class="text-[var(--color-muted-blue)]">Experiential outdoor development focusing on behavioral and cultural competencies through adventure-based learning.</p>
+          <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)]" data-i18n="services_card4_title">Bilotus Talent Expedition</h3>
+          <p class="text-[var(--color-muted-blue)]" data-i18n="services_card4_desc">Experiential outdoor development focusing on behavioral and cultural competencies through adventure-based learning.</p>
         </div>
         <!-- Card 5 -->
         <div class="p-8 rounded-xl shadow-lg service-card bg-[var(--color-lightest)]">
           <div class="w-16 h-16 rounded-full flex items-center justify-center mb-6 text-3xl bg-[var(--color-golden-yellow)] text-[var(--color-deep-blue)]">
             <i class="fas fa-lightbulb"></i>
           </div>
-          <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)]">Bilotus Strategic Advisory</h3>
-          <p class="text-[var(--color-muted-blue)]">Comprehensive HR consulting and organizational development services aligning talent strategies with business growth.</p>
+          <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)]" data-i18n="services_card5_title">Bilotus Strategic Advisory</h3>
+          <p class="text-[var(--color-muted-blue)]" data-i18n="services_card5_desc">Comprehensive HR consulting and organizational development services aligning talent strategies with business growth.</p>
         </div>
       </div>
       <div class="text-center mt-12">
-        <a href="services.html" class="btn-gradient inline-flex items-center">
+        <a href="services.html" class="btn-gradient inline-flex items-center" data-i18n="services_cta">
           Click For More
           <i class="fas fa-cogs ml-2"></i>
         </a>
@@ -161,8 +182,8 @@
   <section id="clients" class="bg-gradient-to-r from-[var(--color-muted-blue)] to-[var(--color-deep-blue)]">
     <div class="container mx-auto px-4">
       <div class="text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4 font-poppins text-[var(--color-lightest)]">Our Esteemed Clients</h2>
-        <p class="text-xl max-w-3xl mx-auto text-[var(--color-golden-yellow)]">We've had the privilege of serving organizations across various industries.</p>
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 font-poppins text-[var(--color-lightest)]" data-i18n="clients_title">Our Esteemed Clients</h2>
+        <p class="text-xl max-w-3xl mx-auto text-[var(--color-golden-yellow)]" data-i18n="clients_subtitle">We've had the privilege of serving organizations across various industries.</p>
         <div class="w-24 h-1.5 mx-auto rounded-full mt-4 bg-[var(--color-lightest)]"></div>
       </div>
       <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 items-center justify-center">
@@ -192,7 +213,7 @@
         </div>
       </div>
       <div class="text-center mt-12">
-          <a href="clients.html" class="btn-fun inline-flex items-center group">
+          <a href="clients.html" class="btn-fun inline-flex items-center group" data-i18n="clients_cta">
           Click For More
           <i class="fas fa-arrow-right ml-2 transition-transform duration-200 group-hover:translate-x-1"></i>
         </a>
@@ -202,54 +223,50 @@
 
   <!-- Contact -->
   <section id="contact" class="bg-gradient-to-r from-[var(--color-lightest)] to-[var(--color-golden-yellow)]">
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-4 py-16">
       <div class="text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4 font-poppins text-[var(--color-deep-blue)]">Contact Us</h2>
-        <p class="text-xl max-w-3xl mx-auto text-[var(--color-muted-blue)]">We'd love to hear from you.</p>
-        <div class="w-24 h-1.5 mx-auto rounded-full mt-4 bg-[var(--color-deep-blue)]"></div>
-      </div>
       <div class="flex flex-col lg:flex-row gap-12 justify-center">
         <div class="lg:w-1/2">
           <div class="p-8 rounded-xl shadow-lg h-full bg-[var(--color-lightest)]">
-            <h3 class="text-2xl font-semibold mb-6 font-poppins text-[var(--color-deep-blue)]">Contact Information</h3>
-            <p class="text-lg text-[var(--color-muted-blue)]">Email: info@bilotusconsulting.com</p>
-            <p class="text-lg text-[var(--color-muted-blue)]">Phone: +62 812 3456 7890</p>
+            <h3 class="text-2xl font-semibold mb-6 font-poppins text-[var(--color-deep-blue)]" data-i18n="contact_info_title">Contact Information</h3>
+            <p class="text-lg text-[var(--color-muted-blue)]" data-i18n="contact_email_label">Email: info@bilotusconsulting.com</p>
+            <p class="text-lg text-[var(--color-muted-blue)]" data-i18n="contact_phone_label">Phone: +62 812 3456 7890</p>
           </div>
         </div>
+      </div>
       </div>
       <div class="mt-12 md:mt-8 lg:mt-4 grid grid-cols-2 gap-12 items-stretch justify-center">
         <!-- Box 1: WhatsApp -->
         <div class="p-8 rounded-xl shadow-2xl flex flex-col items-center justify-center bg-[var(--color-lightest)] h-full">
-          <a href="https://wa.me/08161627713" target="_blank">  
-            <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)] hover:scale-110 transition-transform duration-300">
-              Click To The Chat
+          <a href="https://wa.me/08161627713" target="_blank" rel="noopener noreferrer">  
+            <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)] hover:scale-110 transition-transform duration-300 data-i18n="contact_wa">
+              Click To Go Our WhatsApp
             </h3>
           </a>
-          <a href="https://wa.me/08161627713" target="_blank">
+          <a href="https://wa.me/08161627713" target="_blank" rel="noopener noreferrer">
             <img src="image/logo wa.png" alt="WhatsApp" class="w-24 h-24 hover:scale-110 transition-transform duration-300">
           </a>
         </div>
 
         <!-- Box 2: Gmail -->
         <div class="p-8 rounded-xl shadow-2xl flex flex-col items-center justify-center bg-[var(--color-lightest)] h-full">
-          <a href="mailto:finsensius2007@gmail.com" target="_blank">  
-            <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)] hover:scale-110 transition-transform duration-300">
-              Click To The Chat
+          <a href="mailto:finsensius2007@gmail.com" target="_blank" rel="noopener noreferrer">  
+            <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)] hover:scale-110 transition-transform duration-300" data-i18n="contact_gmail">
+              Click To Go Our Gmail
             </h3>
           </a>
-          <a href="mailto:finsensius2007@gmail.com" target="_blank">
+          <a href="mailto:finsensius2007@gmail.com" target="_blank" rel="noopener noreferrer">
             <img src="image/logo gmail.svg" alt="Gmail" class="w-24 h-16 hover:scale-110 transition-transform duration-300">
           </a>
         </div>
       </div>
-
     </div>
   </section>
 
   <!-- Footer -->
   <footer class="py-12 bg-[var(--color-deep-blue)]">
     <div class="container mx-auto px-4 text-center">
-      <p class="text-lg text-[var(--color-lightest)]">&copy; 2023 Bilotus Consulting. All rights reserved.</p>
+      <p class="text-lg text-[var(--color-lightest)]" data-i18n="footer_copyright">&copy; 2023 Bilotus Consulting. All rights reserved.</p>
     </div>
   </footer>
 
@@ -260,25 +277,18 @@
 
   <script src="js/script.js"></script>
   
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-M83H8CFQ');</script>
-  <!-- End Google Tag Manager -->
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M83H8CFQ');</script>
+    <!-- End Google Tag Manager -->
 
- <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M83H8CFQ"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M83H8CFQ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 </body>
+
 </html>
-
-
-
-
-
-
-
-
