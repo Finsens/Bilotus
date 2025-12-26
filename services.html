@@ -9,12 +9,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
   <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-M83H8CFQ');</script>
-  <!-- End Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M83H8CFQ');</script>
+    <!-- End Google Tag Manager -->
 </head>
 <body class="font-open-sans bg-[var(--color-deep-blue)] text-[var(--color-lightest)]">
 
@@ -26,14 +26,30 @@
         <img src="image/Logo (2).png" alt="Nama PT" class="h-auto w-24">
       </div>
         <!-- NAV Desktop -->
-    <nav class="hidden md:flex space-x-8">
-      <a href="index.html#home" class="nav-link text-[var(--color-deep-blue)] font-semibold">Home</a>
-      <a href="aboutus.html" class="nav-link text-[var(--color-deep-blue)] font-semibold">About Us</a>
-      <a href="services.html" class="nav-link text-[var(--color-deep-blue)] font-semibold">Services</a>
-      <a href="clients.html" class="nav-link text-[var(--color-deep-blue)] font-semibold">Clients</a>
-      <a href="gallery.html" class="nav-link text-[var(--color-deep-blue)] font-semibold">Gallery</a>
-      <a href="index.html#contact" class="nav-link text-[var(--color-deep-blue)] font-semibold">Contact</a>
+   <nav class="hidden md:flex space-x-8">
+      <a href="index.html#home" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_home">Home</a>
+      <a href="aboutus.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_about">About Us</a>
+      <a href="services.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_services">Services</a>
+      <a href="clients.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_clients">Clients</a>
+      <a href="gallery.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_gallery">Gallery</a>
+      <a href="index.html#contact" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_contact">Contact</a>
     </nav>
+    <div class="hidden md:flex items-center gap-2 ml-4">
+      <button
+      onclick="setLanguage('id')"
+        class="px-2 py-1 text-sm font-bold text-[var(--color-deep-blue)] bg-[var(--color-golden-yellow)] rounded"
+  >
+      ID
+    </button>
+
+    <button
+    onclick="setLanguage('en')"
+      class="px-2 py-1 text-sm font-bold text-[var(--color-deep-blue)] bg-[var(--color-golden-yellow)] rounded"
+    >
+      EN
+    </button>
+    </div>
+
       <!-- Hamburger Mobile -->
       <button id="hamburger" class="md:hidden text-2xl text-[var(--color-deep-blue)]">
       <i class="fas fa-bars"></i>
@@ -41,12 +57,12 @@
     </div>
       <!-- NAV Mobile (Dropdown) -->
   <nav id="mobileMenu" class="hidden flex-col space-y-4 px-4 py-4 bg-[var(--color-lightest)] md:hidden shadow-lg">
-    <a href="index.html#home" class="block text-[var(--color-deep-blue)] font-semibold">Home</a>
-    <a href="aboutus.html" class="block text-[var(--color-deep-blue)] font-semibold">About Us</a>
-    <a href="services.html" class="block text-[var(--color-deep-blue)] font-semibold">Services</a>
-    <a href="clients.html" class="block text-[var(--color-deep-blue)] font-semibold">Clients</a>
-    <a href="gallery.html" class="block text-[var(--color-deep-blue)] font-semibold">Gallery</a>
-    <a href="index.html#contact" class="block text-[var(--color-deep-blue)] font-semibold">Contact</a>
+    <a href="index.html#home" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_home">Home</a>
+    <a href="aboutus.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_about">About Us</a>
+    <a href="services.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_services">Services</a>
+    <a href="clients.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_clients">Clients</a>
+    <a href="gallery.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_gallery">Gallery</a>
+    <a href="index.html#contact" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_contact">Contact</a>
   </nav>
     </div>
   </header>
@@ -54,8 +70,8 @@
   <!-- Hero Section -->
   <section class="bg-gradient-to-r from-[var(--color-deep-blue)] to-[var(--color-muted-blue)] py-20">
     <div class="container mx-auto px-4 text-center">
-      <h1 class="text-4xl md:text-6xl font-bold mb-6 font-poppins text-[var(--color-lightest)]">Our Services</h1>
-      <p class="text-xl text-[var(--color-golden-yellow)] max-w-3xl mx-auto">
+      <h1 class="text-4xl md:text-6xl font-bold mb-6 font-poppins text-[var(--color-lightest)]" data-i18n="services_hero_title">Our Services</h1>
+      <p class="text-xl text-[var(--color-golden-yellow)] max-w-3xl mx-auto" data-i18n="services_hero_subtitle">
         Explore our five integrated service areas designed to empower individuals and organizations through tailored HR solutions.
       </p>
     </div>
@@ -71,19 +87,19 @@
           <img src="image/gambar 1.jpg" alt="Talent Assessment" class="rounded-lg shadow-lg w-full h-auto">
         </div>
         <div class="md:w-1/2">
-          <h2 class="text-2xl md:text-3xl font-bold mb-4 font-poppins">Bilotus Integrated Talent Assessment</h2>
-          <p class="text-lg mb-4">Comprehensive tolent evaluation solutions delivered through flexible digital platform with traditional face-to-face options. Our integrated competency-based psychological evaluation and assessment covers individual potential and competencies for talent development and placement decisions supporting with reliable and expert psychological analysis.</p>
+          <h2 class="text-2xl md:text-3xl font-bold mb-4 font-poppins" data-i18n="services_1_title">Bilotus Integrated Talent Assessment</h2>
+          <p class="text-lg mb-4" data-i18n="services_1_desc">Comprehensive tolent evaluation solutions delivered through flexible digital platform with traditional face-to-face options. Our integrated competency-based psychological evaluation and assessment covers individual potential and competencies for talent development and placement decisions supporting with reliable and expert psychological analysis.</p>
           <div class="p-8 rounded-xl shadow-lg service-card bg-[var(--color-lightest)]">
-          <h1 class="text-lg mb-4 font-bold" style="font-style: italic;">What You Get It From This Service ?</h1>
-          <p class="text-lg mb-4">Our comprehensive assessment delivers actionable insights through applied psychological & behavioral simulations. You receive detailed reports covering behavioral skills, personal traits, leadership potential, and competency mapping.</p>
-          <p class="text-lg mb-3"> Our Competency Framework Coverage : </p>
+          <h1 class="text-lg mb-4 font-bold" style="font-style: italic;" data-i18n="services_1_box_title">What You Get It From This Service ?</h1>
+          <p class="text-lg mb-4" data-i18n="services_1_box_desc">Our comprehensive assessment delivers actionable insights through applied psychological & behavioral simulations. You receive detailed reports covering behavioral skills, personal traits, leadership potential, and competency mapping.</p>
+          <p class="text-lg mb-3" data-i18n="services_1_framework_title"> Our Competency Framework Coverage : </p>
           <ul class="list-disc pl-6 space-y-2 text-lg">
             <li>Technical :</li>
-            <p>Specific Skills & Expertise</p>
+            <p data-i18n="services_1_framework_tech">Specific Skills & Expertise</p>
             <li>Behavioral</li>
-            <p>Leadership & Interpersonal effectiveness</p>
+            <p data-i18n="services_1_framework_behavior">Leadership & Interpersonal effectiveness</p>
             <li>Core Culture</li>
-            <p>Value Alignment & Organizational Fit</p>
+            <p data-i18n="services_1_framework_core">Value Alignment & Organizational Fit</p>
           </div>
           </ul>
         </div>
@@ -95,18 +111,18 @@
           <img src="image/service2.jpg" alt="Talent Search" class="rounded-lg shadow-lg w-full h-auto">
         </div>
         <div class="md:w-1/2">
-          <h2 class="text-2xl md:text-3xl font-bold mb-4 font-poppins">Bilotus Talent Search</h2>
-          <p class="text-lg mb-4">Premium executive search and strategic talent acquisition service designed for C-level and senior leadership positions. Through our comprehensive and confidential process, we identify and recruit exceptional executives who align perfectly with your company’s culture, vision, and strategic objectives. Access top-tier professionals who are ready to drive transformational growth and deliver measurable business impact.</p>
+          <h2 class="text-2xl md:text-3xl font-bold mb-4 font-poppins" data-i18n="services_2_box_title">Bilotus Talent Search</h2>
+          <p class="text-lg mb-4" data-i18n="services_2_desc">Premium executive search and strategic talent acquisition service designed for C-level and senior leadership positions. Through our comprehensive and confidential process, we identify and recruit exceptional executives who align perfectly with your company’s culture, vision, and strategic objectives. Access top-tier professionals who are ready to drive transformational growth and deliver measurable business impact.</p>
           <div class="p-8 rounded-xl shadow-lg service-card bg-[var(--color-lightest)]">
-            <h1 class="text-lg mb-4 font-bold" style="font-style: italic;">What you get from this services</h1>
-            <p class="text-lg mb-4">We deliver exceptional candidates who are currently successful in similar roles. Each candidate is thoroughly vetted for skills, culture fit, and leadership capability.</p>
-            <p class="text-lg mb-3"> You Will Receive: </p>
+            <h1 class="text-lg mb-4 font-bold" style="font-style: italic;" data-i18n="services_2_box_title">What you get from this services</h1>
+            <p class="text-lg mb-4" data-i18n="services_2_box_desc">We deliver exceptional candidates who are currently successful in similar roles. Each candidate is thoroughly vetted for skills, culture fit, and leadership capability.</p>
+            <p class="text-lg mb-3" data-i18n="services_2_receive_title"> You Will Receive: </p>
             <ul class="list-disc pl-6 space-y-2 text-lg">
-              <li>Qualified C-level & senior executives</li>
-              <li>Culture alignment report</li>
-              <li>Leadership track record verification</li>
-              <li>Complete background checks</li>
-              <li>Integration support</li>
+              <li data-i18n="services_2_item_1">Qualified C-level & senior executives</li>
+              <li data-i18n="services_2_item_2">Culture alignment report</li>
+              <li data-i18n="services_2_item_3">Leadership track record verification</li>
+              <li data-i18n="services_2_item_4">Complete background checks</li>
+              <li data-i18n="services_2_item_5">Integration support</li>
           </div>
         </div>
       </div>
@@ -117,18 +133,18 @@
           <img src="image/service3.jpg" alt="Talent Academy" class="rounded-lg shadow-lg w-full h-auto">
         </div>
         <div class="md:w-1/2">
-          <h2 class="text-2xl md:text-3xl font-bold mb-4 font-poppins">Bilotus Talent Academy</h2>
-          <p class="text-lg mb-4">Comprehensive training solution built on our proven 3-competency framework. We develop Technical, Behavioral, and Core Competencies through structured learning programs using proven methodologies. Build a capable and confident workforce with measurable outcomes that align with your organizational culture and performance goals.</p>
+          <h2 class="text-2xl md:text-3xl font-bold mb-4 font-poppins" data-i18n="services_3_box_title">Bilotus Talent Academy</h2>
+          <p class="text-lg mb-4" data-i18n="services_3_desc">Comprehensive training solution built on our proven 3-competency framework. We develop Technical, Behavioral, and Core Competencies through structured learning programs using proven methodologies. Build a capable and confident workforce with measurable outcomes that align with your organizational culture and performance goals.</p>
           <div class="p-8 rounded-xl shadow-lg service-card bg-[var(--color-lightest)]">
-            <h1 class="text-lg mb-4 font-bold" style="font-style: italic;">What you get from this services</h1>
-            <p class="text-lg mb-4">We deliver comprehensive competency development across Technical, Behavioral, and Core (Culture) areas. Each program is designed to build specific competencies with measurable learning outcomes that drive performance.</p>
-            <p class="text-lg mb-3"> Key Deliverables</p>
+            <h1 class="text-lg mb-4 font-bold" style="font-style: italic;" data-i18n="services_3_box_title">What you get from this services</h1>
+            <p class="text-lg mb-4" data-i18n="services_3_box_desc">We deliver comprehensive competency development across Technical, Behavioral, and Core (Culture) areas. Each program is designed to build specific competencies with measurable learning outcomes that drive performance.</p>
+            <p class="text-lg mb-3" data-i18n="services_3_key_deliverable_title"> Key Deliverables</p>
             <ul class="list-disc pl-6 space-y-2 text-lg">
-              <li>Technical competency training modules</li>
-              <li>Behavioral competency development</li>
-              <li>Core (corporate culture) alignment</li>
-              <li>Competency assessment & certification</li>
-              <li>Performance improvement tracking</li>
+              <li data-i18n="services_3_item_1">Technical competency training modules</li>
+              <li data-i18n="services_3_item_2">Behavioral competency development</li>
+              <li data-i18n="services_3_item_3">Core (corporate culture) alignment</li>
+              <li data-i18n="services_3_item_4">Competency assessment & certification</li>
+              <li data-i18n="services_3_item_5">Performance improvement tracking</li>
           </div>
         </div>
       </div>
@@ -139,17 +155,17 @@
           <img src="image/service4.jpg" alt="Talent Expedition" class="rounded-lg shadow-lg w-full h-auto">
         </div>
         <div class="md:w-1/2">
-          <h2 class="text-2xl md:text-3xl font-bold mb-4 font-poppins">Bilotus Talent Expedition</h2>
-          <p class="text-lg mb-4">Experiential outdoor development covering all team expedition formats. From intensive adventure journeys to structured outdoor programs, we develop Behavioral and Core competencies through immersive experiences. Build authentic relationships, cultural alignment, and performance-oriented teamwork across all expedition types.</p>
+          <h2 class="text-2xl md:text-3xl font-bold mb-4 font-poppins" data-i18n="services_4_title">Bilotus Talent Expedition</h2>
+          <p class="text-lg mb-4" data-i18n="services_4_desc">Experiential outdoor development covering all team expedition formats. From intensive adventure journeys to structured outdoor programs, we develop Behavioral and Core competencies through immersive experiences. Build authentic relationships, cultural alignment, and performance-oriented teamwork across all expedition types.</p>
           <div class="p-8 rounded-xl shadow-lg service-card bg-[var(--color-lightest)]">
-            <h1 class="text-lg mb-4 font-bold" style="font-style: italic;">What you get from this services</h1>
-            <p class="text-lg mb-4">We deliver comprehensive expedition experiences from immersive outdoor adventures to intensive adventure journeys. Each format develops behavioral competencies and core values through emotionally designed challenge-based learning.</p>
-            <p class="text-lg mb-3"> Key Outcomes:</p>
+            <h1 class="text-lg mb-4 font-bold" style="font-style: italic;" data-i18n="services_4_box_title">What you get from this services</h1>
+            <p class="text-lg mb-4" data-i18n="services_4_box_desc">We deliver comprehensive expedition experiences from immersive outdoor adventures to intensive adventure journeys. Each format develops behavioral competencies and core values through emotionally designed challenge-based learning.</p>
+            <p class="text-lg mb-3" data-i18n="services_4_key_outcomes"> Key Outcomes:</p>
           <ul class="list-disc pl-6 space-y-2 text-lg">
-            <li>Enhanced behavioral competencies</li>
-            <li>Strengthened core cultural alignment</li>
-            <li>Improved team collaboration & trust</li>
-            <li>Leadership skills in dynamic settings</li>
+            <li data-i18n="services_4_item_1">Enhanced behavioral competencies</li>
+            <li data-i18n="services_4_item_2">Strengthened core cultural alignment</li>
+            <li data-i18n="services_4_item_3">Improved team collaboration & trust</li>
+            <li data-i18n="services_4_item_4">Leadership skills in dynamic settings</li>
           </ul>
           </div>
         </div>
@@ -161,17 +177,17 @@
           <img src="image/service5.jpg" alt="Strategic Advisory" class="rounded-lg shadow-lg w-full h-auto">
         </div>
         <div class="md:w-1/2">
-          <h2 class="text-2xl md:text-3xl font-bold mb-4 font-poppins">Bilotus Strategic Advisory</h2>
-          <p class="text-lg mb-4">Strategic HR consulting with business-driven approach for organizational excellence. We provide expert guidance and measurable solutions for human capital challenges through business strategy alignment and targeted talent development. Enhance employee performance and achieve business targets with our proven advisory methodology.</p>
+          <h2 class="text-2xl md:text-3xl font-bold mb-4 font-poppins" data-i18n="services_5_title">Bilotus Strategic Advisory</h2>
+          <p class="text-lg mb-4" data-i18n="services_5_desc">Strategic HR consulting with business-driven approach for organizational excellence. We provide expert guidance and measurable solutions for human capital challenges through business strategy alignment and targeted talent development. Enhance employee performance and achieve business targets with our proven advisory methodology.</p>
           <div class="p-8 rounded-xl shadow-lg service-card bg-[var(--color-lightest)]">
-            <h1 class="text-lg mb-4 font-bold" style="font-style: italic;">What you get from this services</h1>
-            <p class="text-lg mb-4">We deliver strategic HR consulting that aligns talent management with business objectives. Our advisory services identify improvement areas and design concrete solutions that enhance organizational effectiveness and employee performance.</p>
-            <p class="text-lg mb-3"> Key Deliverables</p>
+            <h1 class="text-lg mb-4 font-bold" style="font-style: italic;" data-i18n="services_5_box_title">What you get from this services</h1>
+            <p class="text-lg mb-4" data-i18n="services_5_box_desc">We deliver strategic HR consulting that aligns talent management with business objectives. Our advisory services identify improvement areas and design concrete solutions that enhance organizational effectiveness and employee performance.</p>
+            <p class="text-lg mb-3" data-i18n="services_5_key_deliverables"> Key Deliverables</p>
             <ul class="list-disc pl-6 space-y-2 text-lg">
-              <li>Business strategy & HR alignment analysis</li>
-              <li>Organizational design & restructuring plans</li>
-              <li>Talent management & culture development strategy</li>
-              <li>Performance management & capability systems</li>
+              <li data-i18n="services_5_item_1">Business strategy & HR alignment analysis</li>
+              <li data-i18n="services_5_item_2">Organizational design & restructuring plans</li>
+              <li data-i18n="services_5_item_3">Talent management & culture development strategy</li>
+              <li data-i18n="services_5_item_4">Performance management & capability systems</li>
           </div>
         </div>
       </div>
@@ -182,7 +198,7 @@
   <!-- Footer -->
   <footer class="py-12 bg-[var(--color-deep-blue)]">
     <div class="container mx-auto px-4 text-center">
-      <p class="text-lg text-[var(--color-lightest)]">&copy; 2023 Bilotus Consulting. All rights reserved.</p>
+      <p class="text-lg text-[var(--color-lightest)]" data-i18n="footer_copyright">&copy; 2023 Bilotus Consulting. All rights reserved.</p>
     </div>
   </footer>
 
@@ -192,11 +208,9 @@
   </button>
 
   <script src="js/script.js"></script>
-
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M83H8CFQ"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M83H8CFQ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 </body>
 </html>
-
