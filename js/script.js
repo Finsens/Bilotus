@@ -53,12 +53,28 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         top: offsetPosition,
         behavior: 'smooth'
       });
-
-      // close menu after click (on mobile)
-      if (nav.classList.contains('active')) {
-        nav.classList.remove('active');
-      }
     }
   });
 });
+
+// ===== LANGUAGE ENGINE =====
+async function setLanguage(lang) {
+  console.log('Switch language to:', lang);
+  const res = await fetch(`lang/${lang}.json`);
+  const dict = await res.json();
+
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    if (dict[key]) el.innerHTML = dict[key];
+  });
+
+  localStorage.setItem('lang', lang);
+}
+
+// default language
+document.addEventListener("DOMContentLoaded", () => {
+  const saved = localStorage.getItem("lang") || "id";
+  setLanguage(saved);
+});
+
 // script.js
