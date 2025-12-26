@@ -45,5 +45,120 @@
   "contact_gmail": "Tekan Untuk Menuju Gmail Kami",
   "contact_wa": "Tekan Untuk Menuju WhatsApp Kami",
 
-  "footer_copyright": "© 2023 Bilotus Consulting. Seluruh hak cipta dilindungi."
+  "footer_copyright": "© 2023 Bilotus Consulting. Seluruh hak cipta dilindungi.",
+
+  "about_page_title": "Tentang Bilotus Consulting",
+
+  "about_hero_title": "Tentang Perusahaan Kami",
+  "about_hero_desc_1": "Bilotus adalah perusahaan konsultan manajemen yang berfokus pada layanan Sumber Daya Manusia. Kami telah beroperasi sejak tahun 2016 dengan fokus membantu klien mencapai tujuan yang telah ditetapkan. Kami telah melayani berbagai klien, termasuk instansi pemerintah, BUMN, perusahaan swasta, institusi pendidikan, serta organisasi nirlaba lainnya.",
+  "about_hero_desc_2": "Bilotus terinspirasi dari filosofi bunga teratai yang melambangkan kemurnian, ketangguhan, dan potensi tersembunyi. Bunga teratai tumbuh di lingkungan berlumpur dan keruh, namun mampu mekar menjadi bunga yang indah dan bersih di atas permukaan. Filosofi ini mencerminkan keyakinan kami bahwa setiap individu memiliki potensi luar biasa, meskipun terkadang tersembunyi oleh tantangan dan kondisi yang sulit.",
+
+  "about_tagline_title": "Tagline Kami",
+  "about_tagline_main": "Discover, Develop, Optimize",
+  "about_tagline_desc_1": "Terinspirasi dari filosofi bunga teratai, Bilotus hadir untuk mendukung organisasi dalam membangun keunggulan melalui pengembangan kompetensi yang komprehensif.",
+  "about_tagline_quote": "Discover, Develop, Optimize: Membangun Kompetensi yang Mendorong Keunggulan Bisnis",
+  "about_tagline_desc_2": "Tagline ini mencerminkan pendekatan menyeluruh kami dalam pengelolaan sumber daya manusia melalui pengembangan kompetensi teknis, perilaku, dan kompetensi inti.",
+
+  "about_services_intro": "Lima layanan inti kami membentuk siklus manajemen talenta yang komprehensif melalui pengembangan kompetensi yang terintegrasi:",
+
+  "about_service_discover_title": "Discover",
+  "about_service_discover_desc": "Kami membantu organisasi mengidentifikasi dan memahami talenta melalui Bilotus Integrated Talent Assessment serta Bilotus Talent Search yang berfokus pada identifikasi dan rekrutmen talenta unggul sesuai kebutuhan organisasi.",
+
+  "about_service_develop_title": "Develop",
+  "about_service_develop_desc": "Kami meningkatkan kapabilitas individu dan tim melalui Bilotus Talent Academy serta Bilotus Talent Expedition yang mengombinasikan pembelajaran terstruktur dan pengalaman langsung.",
+
+  "about_service_optimize_title": "Optimize",
+  "about_service_optimize_desc": "Kami mengoptimalkan pemanfaatan talenta dan efektivitas organisasi melalui Bilotus Strategic Advisory yang berfokus pada strategi human capital dan transformasi organisasi.",
+
+  "about_services_cta": "Lihat Layanan Kami",
+
+  "about_footer_copyright": "© 2025 Bilotus Consulting. Seluruh hak cipta dilindungi.",
+
+  "services_hero_title": "Layanan Kami",
+  "services_hero_subtitle": "Jelajahi lima area layanan terintegrasi kami yang dirancang untuk memberdayakan individu dan organisasi melalui solusi SDM yang disesuaikan.",
+
+  "services_1_title": "Bilotus Integrated Talent Assessment",
+  "services_1_desc": "Solusi evaluasi talenta yang komprehensif melalui platform digital yang fleksibel dengan opsi tatap muka tradisional. Evaluasi psikologis dan asesmen berbasis kompetensi terintegrasi kami mencakup potensi individu dan kompetensi untuk pengembangan serta penempatan talenta yang didukung oleh analisis psikologis yang andal dan profesional.",
+
+  "services_1_box_title": "Apa yang Anda Dapatkan dari Layanan Ini?",
+  "services_1_box_desc": "Asesmen komprehensif kami memberikan wawasan yang dapat ditindaklanjuti melalui simulasi psikologis dan perilaku terapan. Anda akan menerima laporan terperinci yang mencakup keterampilan perilaku, karakter pribadi, potensi kepemimpinan, dan pemetaan kompetensi.",
+  "services_1_framework_title": "Cakupan Kerangka Kompetensi Kami:",
+  "services_1_framework_tech": "Keterampilan dan Keahlian Spesifik",
+  "services_1_framework_behavior": "Efektivitas Kepemimpinan dan Interpersonal",
+  "services_1_framework_core": "Keselarasan Nilai dan Kesesuaian Organisasi",
+
+  "services_2_title": "Bilotus Talent Search",
+  "services_2_desc": "Layanan executive search premium dan akuisisi talenta strategis yang dirancang untuk posisi C-level dan pimpinan senior. Melalui proses yang komprehensif dan rahasia, kami mengidentifikasi serta merekrut eksekutif unggul yang selaras dengan budaya, visi, dan tujuan strategis perusahaan Anda.",
+
+  "services_2_box_title": "Apa yang Anda Dapatkan dari Layanan Ini",
+  "services_2_box_desc": "Kami menghadirkan kandidat unggulan yang telah berhasil dalam peran serupa. Setiap kandidat melalui proses seleksi menyeluruh terkait kompetensi, kesesuaian budaya, dan kapabilitas kepemimpinan.",
+  "services_2_receive_title": "Anda Akan Menerima:",
+  "services_2_item_1": "Eksekutif C-level dan pimpinan senior yang berkualitas",
+  "services_2_item_2": "Laporan keselarasan budaya",
+  "services_2_item_3": "Verifikasi rekam jejak kepemimpinan",
+  "services_2_item_4": "Pemeriksaan latar belakang menyeluruh",
+  "services_2_item_5": "Dukungan integrasi",
+
+  "services_3_title": "Bilotus Talent Academy",
+  "services_3_desc": "Solusi pelatihan komprehensif yang dibangun berdasarkan kerangka tiga kompetensi kami. Kami mengembangkan kompetensi Teknis, Perilaku, dan Inti melalui program pembelajaran terstruktur dengan metodologi yang telah terbukti.",
+
+  "services_3_box_title": "Apa yang Anda Dapatkan dari Layanan Ini",
+  "services_3_box_desc": "Kami menyediakan pengembangan kompetensi menyeluruh pada aspek Teknis, Perilaku, dan Inti (Budaya). Setiap program dirancang untuk membangun kompetensi spesifik dengan hasil pembelajaran terukur.",
+  "services_3_deliverable_title": "Hasil Utama",
+  "services_3_item_1": "Modul pelatihan kompetensi teknis",
+  "services_3_item_2": "Pengembangan kompetensi perilaku",
+  "services_3_item_3": "Keselarasan budaya perusahaan",
+  "services_3_item_4": "Asesmen dan sertifikasi kompetensi",
+  "services_3_item_5": "Pemantauan peningkatan kinerja",
+
+  "services_4_title": "Bilotus Talent Expedition",
+  "services_4_desc": "Pengembangan berbasis pengalaman di alam terbuka yang mencakup seluruh format ekspedisi tim. Dari perjalanan petualangan intensif hingga program luar ruang terstruktur.",
+
+  "services_4_box_title": "Apa yang Anda Dapatkan dari Layanan Ini",
+  "services_4_box_desc": "Kami menghadirkan pengalaman ekspedisi komprehensif melalui petualangan luar ruang hingga perjalanan tantangan intensif.",
+  "services_4_outcome_title": "Hasil Utama:",
+  "services_4_item_1": "Peningkatan kompetensi perilaku",
+  "services_4_item_2": "Penguatan keselarasan nilai inti",
+  "services_4_item_3": "Peningkatan kolaborasi dan kepercayaan tim",
+  "services_4_item_4": "Pengembangan keterampilan kepemimpinan dalam situasi dinamis",
+
+  "services_5_title": "Bilotus Strategic Advisory",
+  "services_5_desc": "Konsultasi SDM strategis dengan pendekatan berbasis bisnis untuk keunggulan organisasi. Kami memberikan panduan ahli dan solusi terukur.",
+
+  "services_5_box_title": "Apa yang Anda Dapatkan dari Layanan Ini",
+  "services_5_box_desc": "Kami menyediakan layanan konsultasi SDM strategis yang menyelaraskan pengelolaan talenta dengan tujuan bisnis.",
+  "services_5_deliverable_title": "Hasil Utama",
+  "services_5_item_1": "Analisis keselarasan strategi bisnis dan SDM",
+  "services_5_item_2": "Perancangan dan restrukturisasi organisasi",
+  "services_5_item_3": "Strategi pengelolaan talenta dan pengembangan budaya",
+  "services_5_item_4": "Sistem manajemen kinerja dan kapabilitas",
+
+ "clients_page_title": "Klien Terhormat Kami",
+  "clients_intro": "Kami bangga bermitra dengan berbagai organisasi terkemuka lintas industri, membangun hubungan jangka panjang berdasarkan kepercayaan dan keunggulan.",
+  "clients_list_label": "Daftar klien, baik sebagai pemilik proyek, mitra bisnis maupun rekan, antara lain:",
+
+  "gallery_page_title": "Galeri Kami",
+  "gallery_intro": "Sekilas tentang perjalanan kami, acara, dan momen bersama klien & mitra.",
+
+  "gallery_section_memorable": "Momen Berkesan",
+
+  "gallery_item1_title": "Workshop Talent Expedition",
+  "gallery_item1_desc": "Pelatihan kepemimpinan untuk manajer baru bersama tim HR.",
+
+  "gallery_item2_title": "Workshop \"Be Familiar With Your Talent\"",
+  "gallery_item2_desc": "Kegiatan di alam bebas untuk memperkuat kerja sama tim lintas divisi.",
+
+  "gallery_item3_title": "Workshop Di Paviliun Sunea",
+  "gallery_item3_desc": "Acara apresiasi bersama klien utama tahun 2024.",
+
+  "gallery_item4_title": "Online Workshop",
+  "gallery_item4_desc": "Program pengabdian masyarakat di bidang pendidikan dan kesehatan.",
+
+  "gallery_item5_title": "Online Workshop Quality Assessment",
+  "gallery_item5_desc": "Program pengabdian masyarakat di bidang pendidikan dan kesehatan.",
+
+  "gallery_item6_title": "CSR Activity",
+  "gallery_item6_desc": "Program pengabdian masyarakat di bidang pendidikan dan kesehatan."
+
 }
+
