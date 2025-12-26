@@ -45,5 +45,119 @@
   "contact_gmail": "Click To Go Our Gmail",
   "contact_wa": "Click To Go Our WhatsApp",
 
-  "footer_copyright": "© 2023 Bilotus Consulting. All rights reserved."
+  "footer_copyright": "© 2023 Bilotus Consulting. All rights reserved.",
+
+  "about_page_title": "About Bilotus Consulting",
+
+  "about_hero_title": "About Our Company",
+  "about_hero_desc_1": "Bilotus is a management consulting firm specializing in Human Resources services. Established in 2016, we focus on supporting clients in achieving their strategic objectives. We have served a wide range of clients, including government institutions, state-owned enterprises, private companies, educational institutions, and non-profit organizations.",
+  "about_hero_desc_2": "Bilotus is inspired by the philosophy of the lotus flower, which symbolizes purity, resilience, and hidden potential. The lotus grows in muddy and challenging environments yet blooms into a pristine flower above the surface. This philosophy reflects our belief that every individual possesses extraordinary potential, even when faced with adversity.",
+
+  "about_tagline_title": "Our Tagline",
+  "about_tagline_main": "Discover, Develop, Optimize",
+  "about_tagline_desc_1": "Inspired by the philosophy of the lotus flower, Bilotus supports organizations in building excellence through comprehensive competency development.",
+  "about_tagline_quote": "Discover, Develop, Optimize: Building Competencies That Drive Business Excellence",
+  "about_tagline_desc_2": "This tagline reflects our holistic approach to human capital management through the development of technical, behavioral, and core competencies.",
+
+  "about_services_intro": "Our five core services create a comprehensive talent management cycle through integrated competency development:",
+
+  "about_service_discover_title": "Discover",
+  "about_service_discover_desc": "We assist organizations in identifying and understanding talent through Bilotus Integrated Talent Assessment and Bilotus Talent Search, focusing on identifying and recruiting exceptional talent aligned with organizational needs.",
+
+  "about_service_develop_title": "Develop",
+  "about_service_develop_desc": "We enhance individual and team capabilities through Bilotus Talent Academy and Bilotus Talent Expedition, combining structured learning and experiential development.",
+
+  "about_service_optimize_title": "Optimize",
+  "about_service_optimize_desc": "We optimize talent utilization and organizational effectiveness through Bilotus Strategic Advisory, providing expert guidance on human capital strategy and organizational transformation.",
+
+  "about_services_cta": "View Our Services",
+
+  "about_footer_copyright": "© 2025 Bilotus Consulting. All rights reserved.",
+
+  "services_hero_title": "Our Services",
+  "services_hero_subtitle": "Explore our five integrated service areas designed to empower individuals and organizations through tailored HR solutions.",
+
+  "services_1_title": "Bilotus Integrated Talent Assessment",
+  "services_1_desc": "Comprehensive tolent evaluation solutions delivered through flexible digital platform with traditional face-to-face options. Our integrated competency-based psychological evaluation and assessment covers individual potential and competencies for talent development and placement decisions supporting with reliable and expert psychological analysis.",
+
+  "services_1_box_title": "What You Get It From This Service ?",
+  "services_1_box_desc": "Our comprehensive assessment delivers actionable insights through applied psychological & behavioral simulations. You receive detailed reports covering behavioral skills, personal traits, leadership potential, and competency mapping.",
+  "services_1_framework_title": "Our Competency Framework Coverage :",
+  "services_1_framework_tech": "Specific Skills & Expertise",
+  "services_1_framework_behavior": "Leadership & Interpersonal effectiveness",
+  "services_1_framework_core": "Value Alignment & Organizational Fit",
+
+  "services_2_title": "Bilotus Talent Search",
+  "services_2_desc": "Premium executive search and strategic talent acquisition service designed for C-level and senior leadership positions. Through our comprehensive and confidential process, we identify and recruit exceptional executives who align perfectly with your company’s culture, vision, and strategic objectives. Access top-tier professionals who are ready to drive transformational growth and deliver measurable business impact.",
+
+  "services_2_box_title": "What you get from this services",
+  "services_2_box_desc": "We deliver exceptional candidates who are currently successful in similar roles. Each candidate is thoroughly vetted for skills, culture fit, and leadership capability.",
+  "services_2_receive_title": "You Will Receive:",
+  "services_2_item_1": "Qualified C-level & senior executives",
+  "services_2_item_2": "Culture alignment report",
+  "services_2_item_3": "Leadership track record verification",
+  "services_2_item_4": "Complete background checks",
+  "services_2_item_5": "Integration support",
+
+  "services_3_title": "Bilotus Talent Academy",
+  "services_3_desc": "Comprehensive training solution built on our proven 3-competency framework. We develop Technical, Behavioral, and Core Competencies through structured learning programs using proven methodologies. Build a capable and confident workforce with measurable outcomes that align with your organizational culture and performance goals.",
+
+  "services_3_box_title": "What you get from this services",
+  "services_3_box_desc": "We deliver comprehensive competency development across Technical, Behavioral, and Core (Culture) areas. Each program is designed to build specific competencies with measurable learning outcomes that drive performance.",
+  "services_3_deliverable_title": "Key Deliverables",
+  "services_3_item_1": "Technical competency training modules",
+  "services_3_item_2": "Behavioral competency development",
+  "services_3_item_3": "Core (corporate culture) alignment",
+  "services_3_item_4": "Competency assessment & certification",
+  "services_3_item_5": "Performance improvement tracking",
+
+  "services_4_title": "Bilotus Talent Expedition",
+  "services_4_desc": "Experiential outdoor development covering all team expedition formats. From intensive adventure journeys to structured outdoor programs, we develop Behavioral and Core competencies through immersive experiences. Build authentic relationships, cultural alignment, and performance-oriented teamwork across all expedition types.",
+
+  "services_4_box_title": "What you get from this services",
+  "services_4_box_desc": "We deliver comprehensive expedition experiences from immersive outdoor adventures to intensive adventure journeys. Each format develops behavioral competencies and core values through emotionally designed challenge-based learning.",
+  "services_4_outcome_title": "Key Outcomes:",
+  "services_4_item_1": "Enhanced behavioral competencies",
+  "services_4_item_2": "Strengthened core cultural alignment",
+  "services_4_item_3": "Improved team collaboration & trust",
+  "services_4_item_4": "Leadership skills in dynamic settings",
+
+  "services_5_title": "Bilotus Strategic Advisory",
+  "services_5_desc": "Strategic HR consulting with business-driven approach for organizational excellence. We provide expert guidance and measurable solutions for human capital challenges through business strategy alignment and targeted talent development. Enhance employee performance and achieve business targets with our proven advisory methodology.",
+
+  "services_5_box_title": "What you get from this services",
+  "services_5_box_desc": "We deliver strategic HR consulting that aligns talent management with business objectives. Our advisory services identify improvement areas and design concrete solutions that enhance organizational effectiveness and employee performance.",
+  "services_5_deliverable_title": "Key Deliverables",
+  "services_5_item_1": "Business strategy & HR alignment analysis",
+  "services_5_item_2": "Organizational design & restructuring plans",
+  "services_5_item_3": "Talent management & culture development strategy",
+  "services_5_item_4": "Performance management & capability systems",
+
+  "clients_page_title": "Our Esteemed Clients",
+  "clients_intro": "We take pride in partnering with leading organizations across industries, building long-term relationships based on trust and excellence.",
+  "clients_list_label": "Client list, in a capacity as a project owner, a business partner or an associate, are:",
+
+  "gallery_page_title": "Our Gallery",
+  "gallery_intro": "A glimpse into our journey, events, and moments with our clients & partners.",
+
+  "gallery_section_memorable": "Memorable Moments",
+
+  "gallery_item1_title": "Workshop Talent Expedition",
+  "gallery_item1_desc": "Leadership training for new managers with the HR team.",
+
+  "gallery_item2_title": "Workshop \"Be Familiar With Your Talent\"",
+  "gallery_item2_desc": "Outdoor activities to strengthen teamwork across divisions.",
+
+  "gallery_item3_title": "Workshop At Paviliun Sunea",
+  "gallery_item3_desc": "Appreciation event with key clients in 2024.",
+
+  "gallery_item4_title": "Online Workshop",
+  "gallery_item4_desc": "Community service programs in education and health.",
+
+  "gallery_item5_title": "Online Workshop Quality Assessment",
+  "gallery_item5_desc": "Community service programs in education and health.",
+
+  "gallery_item6_title": "CSR Activity",
+  "gallery_item6_desc": "Community service programs in education and health."
+
 }
