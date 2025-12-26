@@ -9,12 +9,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
   <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-M83H8CFQ');</script>
-  <!-- End Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M83H8CFQ');</script>
+    <!-- End Google Tag Manager -->
 </head>
 <body class="font-open-sans bg-[var(--color-deep-blue)] text-[var(--color-lightest)]">
 
@@ -27,13 +27,30 @@
       </div>
         <!-- NAV Desktop -->
     <nav class="hidden md:flex space-x-8">
-      <a href="index.html#home" class="nav-link text-[var(--color-deep-blue)] font-semibold">Home</a>
-      <a href="aboutus.html" class="nav-link text-[var(--color-deep-blue)] font-semibold">About Us</a>
-      <a href="services.html" class="nav-link text-[var(--color-deep-blue)] font-semibold">Services</a>
-      <a href="clients.html" class="nav-link text-[var(--color-deep-blue)] font-semibold">Clients</a>
-      <a href="gallery.html" class="nav-link text-[var(--color-deep-blue)] font-semibold">Gallery</a>
-      <a href="index.html#contact" class="nav-link text-[var(--color-deep-blue)] font-semibold">Contact</a>
+      <a href="index.html#home" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_home">Home</a>
+      <a href="aboutus.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_about">About Us</a>
+      <a href="services.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_services">Services</a>
+      <a href="clients.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_clients">Clients</a>
+      <a href="gallery.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_gallery">Gallery</a>
+      <a href="index.html#contact" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_contact">Contact</a>
     </nav>
+        <div class="hidden md:flex items-center gap-2 ml-4">
+      <button
+        onclick="setLanguage('id')"
+            class="px-2 py-1 text-sm font-bold text-[var(--color-deep-blue)] bg-[var(--color-golden-yellow)] rounded"
+  >
+      ID
+    </button>
+
+    <button
+      onclick="setLanguage('en')"
+          class="px-2 py-1 text-sm font-bold text-[var(--color-deep-blue)] bg-[var(--color-golden-yellow)] rounded"
+    >
+      EN
+    </button>
+    </div>
+
+
       <!-- Hamburger Mobile -->
       <button id="hamburger" class="md:hidden text-2xl text-[var(--color-deep-blue)]">
       <i class="fas fa-bars"></i>
@@ -41,12 +58,12 @@
     </div>
       <!-- NAV Mobile (Dropdown) -->
   <nav id="mobileMenu" class="hidden flex-col space-y-4 px-4 py-4 bg-[var(--color-lightest)] md:hidden shadow-lg">
-    <a href="index.html#home" class="block text-[var(--color-deep-blue)] font-semibold">Home</a>
-    <a href="aboutus.html" class="block text-[var(--color-deep-blue)] font-semibold">About Us</a>
-    <a href="services.html" class="block text-[var(--color-deep-blue)] font-semibold">Services</a>
-    <a href="clients.html" class="block text-[var(--color-deep-blue)] font-semibold">Clients</a>
-    <a href="gallery.html" class="block text-[var(--color-deep-blue)] font-semibold">Gallery</a>
-    <a href="index.html#contact" class="block text-[var(--color-deep-blue)] font-semibold">Contact</a>
+    <a href="index.html#home" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_home">Home</a>
+    <a href="aboutus.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_about">About Us</a>
+    <a href="services.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_services">Services</a>
+    <a href="clients.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_clients">Clients</a>
+    <a href="gallery.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_gallery">Gallery</a>
+    <a href="index.html#contact" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_contact">Contact</a>
   </nav>
     </div>
   </header>
@@ -54,14 +71,14 @@
   <!-- Hero Section -->
   <section class="bg-gradient-to-r from-[var(--color-deep-blue)] to-[var(--color-muted-blue)]">
     <div class="container mx-auto px-4 text-center py-20">
-      <h1 class="text-4xl md:text-5xl font-bold font-poppins mb-6 animate-fade-in-up">
+      <h1 class="text-4xl md:text-5xl font-bold font-poppins mb-6 animate-fade-in-up" data-i18n="about_hero_title">
         About Our Company
       </h1>
-      <p class="text-xl text-[var(--color-golden-yellow)] max-w-3xl mx-auto animate-fade-in-up animation-delay-200">
+      <p class="text-xl text-[var(--color-golden-yellow)] max-w-3xl mx-auto animate-fade-in-up animation-delay-200" data-i18n="about_hero_desc_1">
         Bilotus is a management consultant specializing in Human Resources services. We have been operating since 2016, focusing on assisting clients in achieving their set goals. We have served a diverse range of clients, including government entities, state-owned enterprises, private companies, educational institutions, and other non-profit organizations.
         We are committed to providing solutions that meet our clients' needs.
       </p>
-      <p class="text-xl text-[var(--color-golden-yellow)] max-w-3xl mx-auto animate-fade-in-up animation-delay-200">
+      <p class="text-xl text-[var(--color-golden-yellow)] max-w-3xl mx-auto animate-fade-in-up animation-delay-200" data-i18n="about_hero_desc_2">
         Bilotus is inspired by the philosophy of the lotus flower, which symbolizes purity, resilience, and hidden potential. The lotus grows in murky and muddy waters, yet it blossoms into a beautiful and pristine flower above the surface. This philosophy reflects our belief that every individual possesses extraordinary potential, even if it is hidden or obscured by challenges and difficult circumstances.
       </p>
     </div>
@@ -71,21 +88,21 @@
   <section class="bg-[var(--color-lightest)] text-[var(--color-deep-blue)]">
     <div class="container mx-auto px-4 py-16">
       <div class="text-center mb-12">
-        <h2 class="text-5xl md:text-4xl font-bold font-poppins mb-4">Our Tagline</h2>
-        <h3 class="text-3xl font-bold"style="font-style: italic;font-family: 'Times New Roman', Times, serif;">Discover, Develop, Optimize</h3>
+        <h2 class="text-5xl md:text-4xl font-bold font-poppins mb-4" data-i18n="about_tagline_title">Our Tagline</h2>
+        <h3 class="text-3xl font-bold"style="font-style: italic;font-family: 'Times New Roman', Times, serif;" data-i18n="about_tagline_main">Discover, Develop, Optimize</h3>
         <div class="w-24 h-1.5 mx-auto rounded-full bg-[var(--color-golden-yellow)]"></div>
       </div>
       <div class="space-y-12 max-w-4xl mx-auto">
         <div>
-          <p class="text-lg leading-relaxed">
+          <p class="text-lg leading-relaxed" data-i18n="about_tagline_desc_1">
             Inspired by the philosophy of the lotus flower, Bilotus is here to support companies in building organizational excellence through comprehensive competency development.
           </p>
         </div>
         <div>
-          <h2 class="text-1xl font-semibold mb-2" style="font-style: italic;">"Discover, Develop, Optimize: Building Competencies That Drive Business Excellence"</h2>
+          <h2 class="text-1xl font-semibold mb-2" style="font-style: italic;" data-i18n="about_tagline_quote">"Discover, Develop, Optimize: Building Competencies That Drive Business Excellence"</h2>
         </div>
         <div>
-          <p class="text-lg leading-relaxed">
+          <p class="text-lg leading-relaxed" data-i18n="about_tagline_desc_2">
             Reflects our comprehensive approach to human capital management through Technical, Behavioral, and Core competency development framework.
           </p>
         </div>
@@ -96,23 +113,23 @@
   <!-- CTA -->
   <section class="bg-gradient-to-r from-[var(--color-golden-yellow)] to-[var(--color-lightest)] text-[var(--color-deep-blue)]">
     <div class="container mx-auto px-4 text-center">
-      <h2 class="text-3xl font-bold mb-4">Our five core services create a complete talent management cycle through integrated competency development:</h2>
+      <h2 class="text-3xl font-bold mb-4" data-i18n="about_services_intro">Our five core services create a complete talent management cycle through integrated competency development:</h2>
           <ul class="list-disc pl-6 space-y-2 text-left">
             <div class="p-8 rounded-xl shadow-lef service-card bg-[var(--color-lightest)]">
-            <li class="text-2xl font-bold">Discover</li>
-            <p>We help organizations identify and understand talent through Bilotus Integrated Talent Assessment (comprehensive assessment of individual potential and competencies) and Bilotus Talent Search (identification and recruitment of exceptional talent aligned with organizational needs).</p>
+            <li class="text-2xl font-bold" data-i18n="about_service_discover_title">Discover</li>
+            <p data-i18n="about_service_discover_desc">We help organizations identify and understand talent through Bilotus Integrated Talent Assessment (comprehensive assessment of individual potential and competencies) and Bilotus Talent Search (identification and recruitment of exceptional talent aligned with organizational needs).</p>
             </div>
             <div class="p-8 rounded-xl shadow-lef service-card bg-[var(--color-lightest)]">
-            <li class="text-2xl font-bold">Develop</li>
-            <p>We enhance capabilities and strengthen teams through Bilotus Talent Academy (structured development programs with blended learning delivery) and Bilotus Talent Expedition (experiential learning through outdoor activities and team challenges).</p>
+            <li class="text-2xl font-bold" data-i18n="about_service_develop_title">Develop</li>
+            <p data-i18n="about_service_develop_desc">We enhance capabilities and strengthen teams through Bilotus Talent Academy (structured development programs with blended learning delivery) and Bilotus Talent Expedition (experiential learning through outdoor activities and team challenges).</p>
             </div>
             <div class="p-8 rounded-xl shadow-lef service-card bg-[var(--color-lightest)]">
-            <li class="text-2xl font-bold">Optimize</li>
-            <p>We optimize talent utilization and organizational effectiveness through Bilotus Strategic Advisory (expert guidance on human capital strategy and organizational transformation).</p>
+            <li class="text-2xl font-bold" data-i18n="about_service_optimize_title">Optimize</li>
+            <p data-i18n="about_service_optimize_desc">We optimize talent utilization and organizational effectiveness through Bilotus Strategic Advisory (expert guidance on human capital strategy and organizational transformation).</p>
             </div>
             </ul>
       </div>
-      <a href="index.html#services" class="btn-gradient inline-flex items-center">
+      <a href="index.html#services" class="btn-gradient inline-flex items-center" data-i18n="about_services_cta">
         Lihat Layanan Kami
         <i class="fas fa-arrow-right ml-2"></i>
       </a>
@@ -121,7 +138,7 @@
 
   <!-- Footer -->
   <footer class="py-12 bg-[var(--color-deep-blue)] text-center">
-    <p class="text-lg text-[var(--color-lightest)]">&copy; 2025 [Nama Perusahaan]. All rights reserved.</p>
+    <p class="text-lg text-[var(--color-lightest)]" data-i18n="about_footer_copyright">&copy; 2025 [Nama Perusahaan]. All rights reserved.</p>
   </footer>
 
   <!-- Back to Top -->
@@ -132,9 +149,8 @@
   <script src="js/script.js"></script>
 
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M83H8CFQ"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M83H8CFQ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 </body>
 </html>
-
