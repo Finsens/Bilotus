@@ -57,6 +57,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
+function getNestedValue(obj, path) {
+  return path.split('.').reduce((o, k) => o?.[k], obj);
+}
+
 async function setLanguage(lang) {
   console.log('Switch language to:', lang);
   const res = await fetch(`lang/${lang}.json`);
@@ -64,7 +68,8 @@ async function setLanguage(lang) {
 
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');
-    if (dict[key]) el.innerHTML = dict[key];
+    const value = getNestedValue(dict, key);
+    if (value) el.innerHTML = value;
   });
 
   localStorage.setItem('lang', lang);
@@ -76,7 +81,4 @@ document.addEventListener("DOMContentLoaded", () => {
   setLanguage(saved);
 });
 
-
 // script.js
-
-
