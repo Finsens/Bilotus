@@ -27,28 +27,29 @@
       </div>
         <!-- NAV Desktop -->
     <nav class="hidden md:flex space-x-8">
-      <a href="index.html#home" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_home">Home</a>
-      <a href="aboutus.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_about">About Us</a>
-      <a href="services.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_services">Services</a>
-      <a href="clients.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_clients">Clients</a>
-      <a href="gallery.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_gallery">Gallery</a>
-      <a href="index.html#contact" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_contact">Contact</a>
+      <a href="index.html#home" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.home">Home</a>
+      <a href="aboutus.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.about">About Us</a>
+      <a href="services.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.services">Services</a>
+      <a href="clients.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.clients">Clients</a>
+      <a href="gallery.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.gallery">Gallery</a>
+      <a href="contact.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.contact">Contact</a>
     </nav>
-    <div class="hidden md:flex items-center gap-2 ml-4">
+        <div class="hidden md:flex items-center gap-2 ml-4">
       <button
-      onclick="setLanguage('id')"
-        class="px-2 py-1 text-sm font-bold text-[var(--color-deep-blue)] bg-[var(--color-golden-yellow)] rounded"
+        onclick="setLanguage('id')"
+            class="px-2 py-1 text-sm font-bold text-[var(--color-deep-blue)] bg-[var(--color-golden-yellow)] rounded"
   >
       ID
     </button>
 
     <button
-    onclick="setLanguage('en')"
-      class="px-2 py-1 text-sm font-bold text-[var(--color-deep-blue)] bg-[var(--color-golden-yellow)] rounded"
+      onclick="setLanguage('en')"
+          class="px-2 py-1 text-sm font-bold text-[var(--color-deep-blue)] bg-[var(--color-golden-yellow)] rounded"
     >
       EN
     </button>
     </div>
+
 
       <!-- Hamburger Mobile -->
       <button id="hamburger" class="md:hidden text-2xl text-[var(--color-deep-blue)]">
@@ -57,12 +58,12 @@
     </div>
       <!-- NAV Mobile (Dropdown) -->
   <nav id="mobileMenu" class="hidden flex-col space-y-4 px-4 py-4 bg-[var(--color-lightest)] md:hidden shadow-lg">
-    <a href="index.html#home" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_home">Home</a>
-    <a href="aboutus.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_about">About Us</a>
-    <a href="services.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_services">Services</a>
-    <a href="clients.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_clients">Clients</a>
-    <a href="gallery.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_gallery">Gallery</a>
-    <a href="index.html#contact" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_contact">Contact</a>
+    <a href="index.html#home" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.home">Home</a>
+    <a href="aboutus.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.about">About Us</a>
+    <a href="services.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.services">Services</a>
+    <a href="clients.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.clients">Clients</a>
+    <a href="gallery.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.gallery">Gallery</a>
+    <a href="contact.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.contact">Contact</a>
   </nav>
     </div>
   </header>
@@ -70,9 +71,9 @@
   <!-- Hero Section -->
   <section class="bg-gradient-to-r from-[var(--color-muted-blue)] to-[var(--color-deep-blue)] py-20">
     <div class="container mx-auto px-4 text-center">
-      <h1 class="text-4xl md:text-6xl font-bold mb-6 font-poppins text-[var(--color-lightest)]" data-i18n="clients_page_title">Our Esteemed Clients</h1>
-      <p class="text-xl text-[var(--color-golden-yellow)] max-w-3xl mx-auto" data-i18n="clients_intro">
-        We take pride in partnering with leading organizations across industries, building long-term relationships based on trust and excellence.
+      <h1 class="text-4xl md:text-6xl font-bold mb-6 font-poppins text-[var(--color-lightest)]" data-i18n="clients.heroTitle">MITRA TERPERCAYA LINTAS INDUSTRI</h1>
+      <p class="text-xl text-[var(--color-golden-yellow)] max-w-3xl mx-auto" data-i18n="clients.heroSubtitle">
+        melayani organisasi swasta, pemerintahan, dan BUMN dalam berbagai proyek sebagai project owner maupun associate.
       </p>
     </div>
   </section>
@@ -81,86 +82,46 @@
   <section class="py-16 bg-[var(--color-lightest)] text-[var(--color-deep-blue)]">
     <div class="container mx-auto px-4">
       <div class="text-center mb-12">
-        <h2 class="text-3xl md:text-4xl font-bold font-poppins" data-i18n="clients_list_label">Client list, in a capacity as a project owner, a business partner or an associate, are:</h2>
+        <h2 class="text-3xl md:text-4xl font-bold font-poppins" data-i18n="clients.listTitle">Berikut Beberapa Mitra Terpercaya Kami, diantaranya :</h2>
         <div class="w-24 h-1.5 mx-auto mt-4 bg-[var(--color-golden-yellow)] rounded-full"></div>
       </div>
 
       <!-- Grid Clients -->
-      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-        <!-- Client Card -->
-        <div class="p-6 rounded-xl shadow-lg border border-[var(--color-golden-yellow)] text-center hover:shadow-2xl transition">
-          <p class="font-semibold text-lg">Anugerah Pharmindo Lestari</p>
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 items-center justify-center">
+        <div class="p-4 rounded-lg shadow-md flex items-center justify-center h-24 bg-[var(--color-golden-yellow)]">
+          <img src="image/allobank.png" alt="Allobank">
         </div>
-        <div class="p-6 rounded-xl shadow-lg border border-[var(--color-golden-yellow)] text-center hover:shadow-2xl transition">
-          <p class="font-semibold text-lg">BFI Finance Indonesia, Tbk</p>
+        <div class="p-4 rounded-lg shadow-md flex items-center justify-center h-24 bg-[var(--color-golden-yellow)]">
+          <img src="image/apl.png" alt="Anugrah Pharmindo Lestari">
         </div>
-        <div class="p-6 rounded-xl shadow-lg border border-[var(--color-golden-yellow)] text-center hover:shadow-2xl transition">
-          <p class="font-semibold text-lg">Bank Aceh</p>
+        <div class="p-4 rounded-lg shadow-md flex items-center justify-center h-24 bg-[var(--color-golden-yellow)]">
+          <img src="image/bfi finance.png" alt="BFI Finance">
         </div>
-        <div class="p-6 rounded-xl shadow-lg border border-[var(--color-golden-yellow)] text-center hover:shadow-2xl transition">
-          <p class="font-semibold text-lg">Bank BJB</p>
+        <div class="p-4 rounded-lg shadow-md flex items-center justify-center h-24 bg-[var(--color-golden-yellow)]">
+          <img src="image/bjb.png" alt="Bank BJB">
         </div>
-        <div class="p-6 rounded-xl shadow-lg border border-[var(--color-golden-yellow)] text-center hover:shadow-2xl transition">
-          <p class="font-semibold text-lg">Bank Danamon</p>
+        <div class="p-4 rounded-lg shadow-md flex items-center justify-center h-24 bg-[var(--color-golden-yellow)]">
+          <img src="image/buaan finance.png" alt="Buana Finance">
         </div>
-        <div class="p-6 rounded-xl shadow-lg border border-[var(--color-golden-yellow)] text-center hover:shadow-2xl transition">
-          <p class="font-semibold text-lg">BJB Syariah</p>
+        <div class="p-4 rounded-lg shadow-md flex items-center justify-center h-24 bg-[var(--color-golden-yellow)]">
+          <img src="image/dhanarta.png" alt="Bank Dhanarta">
         </div>
-        <div class="p-6 rounded-xl shadow-lg border border-[var(--color-golden-yellow)] text-center hover:shadow-2xl transition">
-          <p class="font-semibold text-lg">BPKS Aceh</p>
+        <div class="p-4 rounded-lg shadow-md flex items-center justify-center h-24 bg-[var(--color-golden-yellow)]">
+          <img src="image/aceh.png" alt="Bank Aceh">
         </div>
-        <div class="p-6 rounded-xl shadow-lg border border-[var(--color-golden-yellow)] text-center hover:shadow-2xl transition">
-          <p class="font-semibold text-lg">BPR Danartha Dwiprima</p>
+        <div class="p-4 rounded-lg shadow-md flex items-center justify-center h-24 bg-[var(--color-golden-yellow)]">
+          <img src="image/cni.png" alt="CNI">
         </div>
-        <div class="p-6 rounded-xl shadow-lg border border-[var(--color-golden-yellow)] text-center hover:shadow-2xl transition">
-          <p class="font-semibold text-lg">Buana Finance</p>
+        <div class="p-4 rounded-lg shadow-md flex items-center justify-center h-24 bg-[var(--color-golden-yellow)]">
+          <img src="image/jne.png" alt="JNE">
         </div>
-        <div class="p-6 rounded-xl shadow-lg border border-[var(--color-golden-yellow)] text-center hover:shadow-2xl transition">
-          <p class="font-semibold text-lg">CNI</p>
+        <div class="p-4 rounded-lg shadow-md flex items-center justify-center h-24 bg-[var(--color-golden-yellow)]">
+          <img src="image/nanobank.png" alt="Nano Bank">
         </div>
-        <div class="p-6 rounded-xl shadow-lg border border-[var(--color-golden-yellow)] text-center hover:shadow-2xl transition">
-          <p class="font-semibold text-lg">Indocare Citrapasific Indonesia</p>
+        <div class="p-4 rounded-lg shadow-md flex items-center justify-center h-24 bg-[var(--color-golden-yellow)]">
+          <img src="image/perdhaki.jpg" alt="perdhaki">
         </div>
-        <div class="p-6 rounded-xl shadow-lg border border-[var(--color-golden-yellow)] text-center hover:shadow-2xl transition">
-          <p class="font-semibold text-lg">JNE</p>
-        </div>
-        <div class="p-6 rounded-xl shadow-lg border border-[var(--color-golden-yellow)] text-center hover:shadow-2xl transition">
-          <p class="font-semibold text-lg">Kawan Lama Sejahtera</p>
-        </div>
-        <div class="p-6 rounded-xl shadow-lg border border-[var(--color-golden-yellow)] text-center hover:shadow-2xl transition">
-          <p class="font-semibold text-lg">Kimia Farma Group</p>
-        </div>
-        <div class="p-6 rounded-xl shadow-lg border border-[var(--color-golden-yellow)] text-center hover:shadow-2xl transition">
-          <p class="font-semibold text-lg">Kompas Gramedia</p>
-        </div>
-        <div class="p-6 rounded-xl shadow-lg border border-[var(--color-golden-yellow)] text-center hover:shadow-2xl transition">
-          <p class="font-semibold text-lg">Krama Yudha Tiga Berlian</p>
-        </div>
-        <div class="p-6 rounded-xl shadow-lg border border-[var(--color-golden-yellow)] text-center hover:shadow-2xl transition">
-          <p class="font-semibold text-lg">Lions Club</p>
-        </div>
-        <div class="p-6 rounded-xl shadow-lg border border-[var(--color-golden-yellow)] text-center hover:shadow-2xl transition">
-          <p class="font-semibold text-lg">LPPBMN-KEMENHUB</p>
-        </div>
-        <div class="p-6 rounded-xl shadow-lg border border-[var(--color-golden-yellow)] text-center hover:shadow-2xl transition">
-          <p class="font-semibold text-lg">Marga Sadhya Swasti</p>
-        </div>
-        <div class="p-6 rounded-xl shadow-lg border border-[var(--color-golden-yellow)] text-center hover:shadow-2xl transition">
-          <p class="font-semibold text-lg">PERDHAKI</p>
-        </div>
-        <div class="p-6 rounded-xl shadow-lg border border-[var(--color-golden-yellow)] text-center hover:shadow-2xl transition">
-          <p class="font-semibold text-lg">Nanobank Syariah</p>
-        </div>
-        <div class="p-6 rounded-xl shadow-lg border border-[var(--color-golden-yellow)] text-center hover:shadow-2xl transition">
-          <p class="font-semibold text-lg">Sinar Roda Utama</p>
-        </div>
-        <div class="p-6 rounded-xl shadow-lg border border-[var(--color-golden-yellow)] text-center hover:shadow-2xl transition">
-          <p class="font-semibold text-lg">Solusi Integrasi Pratama</p>
-        </div>
-        <div class="p-6 rounded-xl shadow-lg border border-[var(--color-golden-yellow)] text-center hover:shadow-2xl transition">
-          <p class="font-semibold text-lg">Yupharin Pharmaceutical</p>
-        </div>
-
+      </div>
         <!-- Tambahkan klien baru di sini bila ada -->
       </div>
     </div>
@@ -169,7 +130,7 @@
   <!-- Footer -->
   <footer class="py-12 bg-[var(--color-deep-blue)]">
     <div class="container mx-auto px-4 text-center">
-      <p class="text-lg text-[var(--color-lightest)]" data-i18n="footer_copyright">&copy; 2023 Bilotus Consulting. All rights reserved.</p>
+      <p class="text-lg text-[var(--color-lightest)]" data-i18n="footer.copyright">&copy; 2023 Bilotus Consulting. All rights reserved.</p>
     </div>
   </footer>
 
