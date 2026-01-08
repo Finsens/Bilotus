@@ -27,28 +27,29 @@
       </div>
         <!-- NAV Desktop -->
    <nav class="hidden md:flex space-x-8">
-      <a href="index.html#home" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_home">Home</a>
-      <a href="aboutus.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_about">About Us</a>
-      <a href="services.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_services">Services</a>
-      <a href="clients.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_clients">Clients</a>
-      <a href="gallery.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_gallery">Gallery</a>
-      <a href="index.html#contact" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_contact">Contact</a>
+      <a href="index.html#home" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.home">Home</a>
+      <a href="aboutus.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.about">About Us</a>
+      <a href="services.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.services">Services</a>
+      <a href="clients.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.clients">Clients</a>
+      <a href="gallery.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.gallery">Gallery</a>
+      <a href="contact.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.contact">Contact</a>
     </nav>
-    <div class="hidden md:flex items-center gap-2 ml-4">
+        <div class="hidden md:flex items-center gap-2 ml-4">
       <button
-      onclick="setLanguage('id')"
-        class="px-2 py-1 text-sm font-bold text-[var(--color-deep-blue)] bg-[var(--color-golden-yellow)] rounded"
+        onclick="setLanguage('id')"
+            class="px-2 py-1 text-sm font-bold text-[var(--color-deep-blue)] bg-[var(--color-golden-yellow)] rounded"
   >
       ID
     </button>
 
     <button
-    onclick="setLanguage('en')"
-      class="px-2 py-1 text-sm font-bold text-[var(--color-deep-blue)] bg-[var(--color-golden-yellow)] rounded"
+      onclick="setLanguage('en')"
+          class="px-2 py-1 text-sm font-bold text-[var(--color-deep-blue)] bg-[var(--color-golden-yellow)] rounded"
     >
       EN
     </button>
     </div>
+
 
       <!-- Hamburger Mobile -->
       <button id="hamburger" class="md:hidden text-2xl text-[var(--color-deep-blue)]">
@@ -57,12 +58,12 @@
     </div>
       <!-- NAV Mobile (Dropdown) -->
   <nav id="mobileMenu" class="hidden flex-col space-y-4 px-4 py-4 bg-[var(--color-lightest)] md:hidden shadow-lg">
-    <a href="index.html#home" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_home">Home</a>
-    <a href="aboutus.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_about">About Us</a>
-    <a href="services.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_services">Services</a>
-    <a href="clients.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_clients">Clients</a>
-    <a href="gallery.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_gallery">Gallery</a>
-    <a href="index.html#contact" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_contact">Contact</a>
+    <a href="index.html#home" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.home">Home</a>
+    <a href="aboutus.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.about">About Us</a>
+    <a href="services.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.services">Services</a>
+    <a href="clients.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.clients">Clients</a>
+    <a href="gallery.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.gallery">Gallery</a>
+    <a href="contact.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.contact">Contact</a>
   </nav>
     </div>
   </header>
@@ -70,9 +71,9 @@
   <!-- Hero Section -->
   <section class="bg-gradient-to-r from-[var(--color-deep-blue)] to-[var(--color-muted-blue)] py-20">
     <div class="container mx-auto px-4 text-center">
-      <h1 class="text-4xl md:text-6xl font-bold mb-6 font-poppins text-[var(--color-lightest)]" data-i18n="services_hero_title">Our Services</h1>
-      <p class="text-xl text-[var(--color-golden-yellow)] max-w-3xl mx-auto" data-i18n="services_hero_subtitle">
-        Explore our five integrated service areas designed to empower individuals and organizations through tailored HR solutions.
+      <h1 class="text-4xl md:text-6xl font-bold mb-6 font-poppins text-[var(--color-lightest)]" data-i18n="services.heroTtitle">Layanan Kami</h1>
+      <p class="text-xl text-[var(--color-golden-yellow)] max-w-3xl mx-auto" data-i18n="services.heroSubtitle">
+        Kami menyediakan tiga kategori layanan utama yang saling melengkapi untuk mendukung siklus manajemen talenta organisasi Anda secara menyeluruh
       </p>
     </div>
   </section>
@@ -87,21 +88,9 @@
           <img src="image/gambar 1.jpg" alt="Talent Assessment" class="rounded-lg shadow-lg w-full h-auto">
         </div>
         <div class="md:w-1/2">
-          <h2 class="text-2xl md:text-3xl font-bold mb-4 font-poppins" data-i18n="services_1_title">Bilotus Integrated Talent Assessment</h2>
-          <p class="text-lg mb-4" data-i18n="services_1_desc">Comprehensive tolent evaluation solutions delivered through flexible digital platform with traditional face-to-face options. Our integrated competency-based psychological evaluation and assessment covers individual potential and competencies for talent development and placement decisions supporting with reliable and expert psychological analysis.</p>
-          <div class="p-8 rounded-xl shadow-lg service-card bg-[var(--color-lightest)]">
-          <h1 class="text-lg mb-4 font-bold" style="font-style: italic;" data-i18n="services_1_box_title">What You Get It From This Service ?</h1>
-          <p class="text-lg mb-4" data-i18n="services_1_box_desc">Our comprehensive assessment delivers actionable insights through applied psychological & behavioral simulations. You receive detailed reports covering behavioral skills, personal traits, leadership potential, and competency mapping.</p>
-          <p class="text-lg mb-3" data-i18n="services_1_framework_title"> Our Competency Framework Coverage : </p>
-          <ul class="list-disc pl-6 space-y-2 text-lg">
-            <li>Technical :</li>
-            <p data-i18n="services_1_framework_tech">Specific Skills & Expertise</p>
-            <li>Behavioral</li>
-            <p data-i18n="services_1_framework_behavior">Leadership & Interpersonal effectiveness</p>
-            <li>Core Culture</li>
-            <p data-i18n="services_1_framework_core">Value Alignment & Organizational Fit</p>
-          </div>
-          </ul>
+          <h2 class="text-2xl md:text-3xl font-bold mb-4 font-poppins" data-i18n="services.1Title">Talent Consulting Services</h2>
+          <p class="text-lg mb-4" data-i18n="services.1Desc1">Layanan konsultasi komprehensif untuk menemukan, mengevaluasi, dan mengoptimalkan talenta dalam organisasi Anda.</p>
+          <p class="text-lg mb-4" data-i18n="services.1Desc2">Kami membantu Anda membuat keputusan strategis berbasis data melalui assessment psikometri, executive search, dan advisory untuk penyelarasan strategi SDM dengan tujuan bisnis.</p>
         </div>
       </div>
 
@@ -111,19 +100,9 @@
           <img src="image/service2.jpg" alt="Talent Search" class="rounded-lg shadow-lg w-full h-auto">
         </div>
         <div class="md:w-1/2">
-          <h2 class="text-2xl md:text-3xl font-bold mb-4 font-poppins" data-i18n="services_2_box_title">Bilotus Talent Search</h2>
-          <p class="text-lg mb-4" data-i18n="services_2_desc">Premium executive search and strategic talent acquisition service designed for C-level and senior leadership positions. Through our comprehensive and confidential process, we identify and recruit exceptional executives who align perfectly with your company’s culture, vision, and strategic objectives. Access top-tier professionals who are ready to drive transformational growth and deliver measurable business impact.</p>
-          <div class="p-8 rounded-xl shadow-lg service-card bg-[var(--color-lightest)]">
-            <h1 class="text-lg mb-4 font-bold" style="font-style: italic;" data-i18n="services_2_box_title">What you get from this services</h1>
-            <p class="text-lg mb-4" data-i18n="services_2_box_desc">We deliver exceptional candidates who are currently successful in similar roles. Each candidate is thoroughly vetted for skills, culture fit, and leadership capability.</p>
-            <p class="text-lg mb-3" data-i18n="services_2_receive_title"> You Will Receive: </p>
-            <ul class="list-disc pl-6 space-y-2 text-lg">
-              <li data-i18n="services_2_item_1">Qualified C-level & senior executives</li>
-              <li data-i18n="services_2_item_2">Culture alignment report</li>
-              <li data-i18n="services_2_item_3">Leadership track record verification</li>
-              <li data-i18n="services_2_item_4">Complete background checks</li>
-              <li data-i18n="services_2_item_5">Integration support</li>
-          </div>
+          <h2 class="text-2xl md:text-3xl font-bold mb-4 font-poppins" data-i18n="services.2Title">Talent Development Programs</h2>
+          <p class="text-lg mb-4" data-i18n="services.2Desc1">Program pengembangan kompetensi yang dirancang khusus sesuai kebutuhan organisasi Anda.</p>
+          <p class="text-lg mb-4" data-i18n="services.2Desc2">Tersedia dalam berbagai format pembelajaran—dari classroom training, blended learning, hingga experiential outdoor programs—untuk membangun technical, behavioral, dan core competencies secara terukur.</p>
         </div>
       </div>
 
@@ -133,72 +112,59 @@
           <img src="image/service3.jpg" alt="Talent Academy" class="rounded-lg shadow-lg w-full h-auto">
         </div>
         <div class="md:w-1/2">
-          <h2 class="text-2xl md:text-3xl font-bold mb-4 font-poppins" data-i18n="services_3_box_title">Bilotus Talent Academy</h2>
-          <p class="text-lg mb-4" data-i18n="services_3_desc">Comprehensive training solution built on our proven 3-competency framework. We develop Technical, Behavioral, and Core Competencies through structured learning programs using proven methodologies. Build a capable and confident workforce with measurable outcomes that align with your organizational culture and performance goals.</p>
-          <div class="p-8 rounded-xl shadow-lg service-card bg-[var(--color-lightest)]">
-            <h1 class="text-lg mb-4 font-bold" style="font-style: italic;" data-i18n="services_3_box_title">What you get from this services</h1>
-            <p class="text-lg mb-4" data-i18n="services_3_box_desc">We deliver comprehensive competency development across Technical, Behavioral, and Core (Culture) areas. Each program is designed to build specific competencies with measurable learning outcomes that drive performance.</p>
-            <p class="text-lg mb-3" data-i18n="services_3_key_deliverable_title"> Key Deliverables</p>
-            <ul class="list-disc pl-6 space-y-2 text-lg">
-              <li data-i18n="services_3_item_1">Technical competency training modules</li>
-              <li data-i18n="services_3_item_2">Behavioral competency development</li>
-              <li data-i18n="services_3_item_3">Core (corporate culture) alignment</li>
-              <li data-i18n="services_3_item_4">Competency assessment & certification</li>
-              <li data-i18n="services_3_item_5">Performance improvement tracking</li>
-          </div>
+          <h2 class="text-2xl md:text-3xl font-bold mb-4 font-poppins" data-i18n="services.3Title">HR Tech Solutions</h2>
+          <p class="text-lg mb-4" data-i18n="services.3Desc1">Platform teknologi terintegrasi berbasis AI untuk mengotomasi dan mempermudah seluruh proses manajemen SDM.</p>
+          <p class="text-lg mb-4" data-i18n="services.3Desc2">Dari HRIS, penggajian, assessment online, talent mapping, hingga employee self-service.
+            Satu platform untuk semua kebutuhan HR Anda dengan akurasi tinggi dan efisiensi maksimal.</p>
         </div>
       </div>
+    </div>
+  </section>
 
-      <!-- Service 4 -->
-      <div class="flex flex-col md:flex-row-reverse items-center gap-12">
-        <div class="md:w-1/2">
-          <img src="image/service4.jpg" alt="Talent Expedition" class="rounded-lg shadow-lg w-full h-auto">
-        </div>
-        <div class="md:w-1/2">
-          <h2 class="text-2xl md:text-3xl font-bold mb-4 font-poppins" data-i18n="services_4_title">Bilotus Talent Expedition</h2>
-          <p class="text-lg mb-4" data-i18n="services_4_desc">Experiential outdoor development covering all team expedition formats. From intensive adventure journeys to structured outdoor programs, we develop Behavioral and Core competencies through immersive experiences. Build authentic relationships, cultural alignment, and performance-oriented teamwork across all expedition types.</p>
-          <div class="p-8 rounded-xl shadow-lg service-card bg-[var(--color-lightest)]">
-            <h1 class="text-lg mb-4 font-bold" style="font-style: italic;" data-i18n="services_4_box_title">What you get from this services</h1>
-            <p class="text-lg mb-4" data-i18n="services_4_box_desc">We deliver comprehensive expedition experiences from immersive outdoor adventures to intensive adventure journeys. Each format develops behavioral competencies and core values through emotionally designed challenge-based learning.</p>
-            <p class="text-lg mb-3" data-i18n="services_4_key_outcomes"> Key Outcomes:</p>
-          <ul class="list-disc pl-6 space-y-2 text-lg">
-            <li data-i18n="services_4_item_1">Enhanced behavioral competencies</li>
-            <li data-i18n="services_4_item_2">Strengthened core cultural alignment</li>
-            <li data-i18n="services_4_item_3">Improved team collaboration & trust</li>
-            <li data-i18n="services_4_item_4">Leadership skills in dynamic settings</li>
-          </ul>
-          </div>
-        </div>
+  <section id="services" class="bg-gradient-to-r from-[var(--color-deep-blue)] to-[var(--color-muted-blue)]">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 font-poppins text-[var(--color-golden-yellow)]" data-i18n="services.cycleTitle">Siklus Layanan Terintegrasi</h2>
+        <div class="max-w-3xl h-1.5 mx-auto rounded-full bg-[var(--color-lightest)]"></div>
+        <p class="text-xl text-[var(--color-golden-yellow)] max-w-3xl mx-auto" data-i18n="services.cycleSubtitle">
+          Ketiga kategori layanan kami dirancang untuk mendukung siklus manajemen talenta secara holistik, dari identifikasi hingga optimalisasi berkelanjutan.
+        </p>
       </div>
-
-      <!-- Service 5 -->
-      <div class="flex flex-col md:flex-row items-center gap-12">
-        <div class="md:w-1/2">
-          <img src="image/service5.jpg" alt="Strategic Advisory" class="rounded-lg shadow-lg w-full h-auto">
-        </div>
-        <div class="md:w-1/2">
-          <h2 class="text-2xl md:text-3xl font-bold mb-4 font-poppins" data-i18n="services_5_title">Bilotus Strategic Advisory</h2>
-          <p class="text-lg mb-4" data-i18n="services_5_desc">Strategic HR consulting with business-driven approach for organizational excellence. We provide expert guidance and measurable solutions for human capital challenges through business strategy alignment and targeted talent development. Enhance employee performance and achieve business targets with our proven advisory methodology.</p>
-          <div class="p-8 rounded-xl shadow-lg service-card bg-[var(--color-lightest)]">
-            <h1 class="text-lg mb-4 font-bold" style="font-style: italic;" data-i18n="services_5_box_title">What you get from this services</h1>
-            <p class="text-lg mb-4" data-i18n="services_5_box_desc">We deliver strategic HR consulting that aligns talent management with business objectives. Our advisory services identify improvement areas and design concrete solutions that enhance organizational effectiveness and employee performance.</p>
-            <p class="text-lg mb-3" data-i18n="services_5_key_deliverables"> Key Deliverables</p>
-            <ul class="list-disc pl-6 space-y-2 text-lg">
-              <li data-i18n="services_5_item_1">Business strategy & HR alignment analysis</li>
-              <li data-i18n="services_5_item_2">Organizational design & restructuring plans</li>
-              <li data-i18n="services_5_item_3">Talent management & culture development strategy</li>
-              <li data-i18n="services_5_item_4">Performance management & capability systems</li>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div class="p-8 rounded-xl shadow-lg service-card bg-[var(--color-lightest)]">
+          <div class="w-16 h-16 rounded-full flex items-center justify-center mb-6 text-3xl bg-[var(--color-golden-yellow)] text-[var(--color-deep-blue)]">
+            <i class="fas fa-clipboard-check"></i>
           </div>
+          <h3 class="text-xl font-bold mb-3 font-poppins text-[var(--color-deep-blue)]" data-i18n="services.cycleDiscoverTitle">Discover</h3>
+          <h5 class="text-lg font-semibold mb-3 font-poppins text-[var(--color-deep-blue)]" style="font-style: italic;" data-i18n="services.cycleDiscoverSubtitle">Menemukan & Mengevaluasi Talenta Terbaik</h5>
+          <p class="text-[var(--color-muted-blue)]" data-i18n="services.cycleDiscoverDesc">Melalui Talent Consulting Services, kami membantu mengidentifikasi potensi tersembunyi, merekrut talenta exceptional, dan memberikan advisory strategis untuk keputusan SDM yang tepat.</p>
         </div>
-      </div>
-
+        <!-- Card 2 -->
+        <div class="p-8 rounded-xl shadow-lg service-card bg-[var(--color-lightest)]">
+          <div class="w-16 h-16 rounded-full flex items-center justify-center mb-6 text-3xl bg-[var(--color-golden-yellow)] text-[var(--color-deep-blue)]">
+            <i class="fas fa-clipboard-check"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-3 font-poppins text-[var(--color-deep-blue)]" data-i18n="services.cycleDevelopTitle">Develop</h3>
+          <h5 class="text-lg font-semibold mb-3 font-poppins text-[var(--color-deep-blue)]" style="font-style: italic;" data-i18n="services.cycleDevelopSubtitle">Mengembangkan Kompetensi Secara Terstruktur</h5>
+          <p class="text-[var(--color-muted-blue)]" data-i18n="services.cycleDevelopDesc">Melalui Talent Development Programs, kami membangun technical, behavioral, & core competencies dengan berbagai metode pembelajaran yang disesuaikan dengan kebutuhan organisasi.</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="p-8 rounded-xl shadow-lg service-card bg-[var(--color-lightest)]">
+          <div class="w-16 h-16 rounded-full flex items-center justify-center mb-6 text-3xl bg-[var(--color-golden-yellow)] text-[var(--color-deep-blue)]">
+            <i class="fas fa-clipboard-check"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-3 font-poppins text-[var(--color-deep-blue)]" data-i18n="services.cycleOptimizeTitle">Optimize</h3>
+          <h5 class="text-lg font-semibold mb-3 font-poppins text-[var(--color-deep-blue)]" style="font-style: italic;" data-i18n="services.cycleOptimizeSubtitle">Mengotomasi & Meningkatkan Efisiensi dengan Teknologi</h5>
+          <p class="text-[var(--color-muted-blue)]" data-i18n="services.cycleOptimizeDesc">Melalui HR Tech Solutions, kami mengintegrasikan platform berbasis AI untuk mengotomasi proses HR, meningkatkan akurasi data, & membebaskan waktu Anda untuk fokus pada strategi bisnis.</p>
+        </div>
     </div>
   </section>
 
   <!-- Footer -->
   <footer class="py-12 bg-[var(--color-deep-blue)]">
     <div class="container mx-auto px-4 text-center">
-      <p class="text-lg text-[var(--color-lightest)]" data-i18n="footer_copyright">&copy; 2023 Bilotus Consulting. All rights reserved.</p>
+      <p class="text-lg text-[var(--color-lightest)]" data-i18n="footer.copyright">&copy; 2023 Bilotus Consulting. All rights reserved.</p>
     </div>
   </footer>
 
