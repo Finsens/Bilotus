@@ -25,13 +25,14 @@
       </div>    
       <!-- NAV Desktop -->
     <nav class="hidden md:flex space-x-8">
-      <a href="index.html#home" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_home">Home</a>
-      <a href="aboutus.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_about">About Us</a>
-      <a href="services.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_services">Services</a>
-      <a href="clients.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_clients">Clients</a>
-      <a href="gallery.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_gallery">Gallery</a>
+      <a href="index.html#home" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.home">Home</a>
+      <a href="aboutus.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.about">About Us</a>
+      <a href="services.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.services">Services</a>
+      <a href="clients.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.clients">Clients</a>
+      <a href="gallery.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.gallery">Gallery</a>
+      <a href="contact.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.contact">Contact</a>
     </nav>
-    <div class="hidden md:flex items-center gap-2 ml-4">
+        <div class="hidden md:flex items-center gap-2 ml-4">
       <button
         onclick="setLanguage('id')"
             class="px-2 py-1 text-sm font-bold text-[var(--color-deep-blue)] bg-[var(--color-golden-yellow)] rounded"
@@ -55,32 +56,29 @@
     </div>
       <!-- NAV Mobile (Dropdown) -->
   <nav id="mobileMenu" class="hidden flex-col space-y-4 px-4 py-4 bg-[var(--color-lightest)] md:hidden shadow-lg">
-    <a href="index.html#home" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_home">Home</a>
-      <a href="aboutus.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_about">About Us</a>
-      <a href="services.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_services">Services</a>
-      <a href="clients.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_clients">Clients</a>
-      <a href="gallery.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav_gallery">Gallery</a>
-      
-    <div class="hidden md:flex items-center gap-2 ml-4">
-      <button onclick="setLanguage('id')" class="px-2 font-semibold">ID</button>
-      <button onclick="setLanguage('en')" class="px-2 font-semibold">EN</button>
-    </div>
+    <a href="index.html#home" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.home">Home</a>
+    <a href="aboutus.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.about">About Us</a>
+    <a href="services.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.services">Services</a>
+    <a href="clients.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.clients">Clients</a>
+    <a href="gallery.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.gallery">Gallery</a>
+    <a href="contact.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.contact">Contact</a>
   </nav>
+    </div>
   </header>
 
   <!-- Hero -->
   <section id="home" class="bg-gradient-to-r from-[var(--color-deep-blue)] to-[var(--color-muted-blue)]">
     <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
       <div class="md:w-1/2 mb-12 md:mb-0 text-center md:text-left">
-        <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight font-poppins animate-fade-in-up text-[var(--color-lightest)]" data-i18n="hero_title">
+        <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight font-poppins animate-fade-in-up text-[var(--color-lightest)]" data-i18n="home.heroTitle">
           Discover, Develop, Optimize
         </h1>
-        <p class="text-xl md:text-2xl mb-8 text-[var(--color-golden-yellow)] animate-fade-in-up animation-delay-200" data-i18n="hero_subtitle">
+        <p class="text-xl md:text-2xl mb-8 text-[var(--color-golden-yellow)] animate-fade-in-up animation-delay-200" data-i18n="home.heroSubtitle">
           Building Competencies That Drive Business Excellence
         </p>
         <div class="flex justify-center md:justify-start space-x-4">
-          <a href="#services" class="btn-primary">Our Services</a>
-          <a href="#contact" class="btn-secondary">Contact Us</a>
+          <a href="#services" class="btn-primary" data-i18n="cta.ourServices">Our Services</a>
+          <a href="#contact" class="btn-secondary" data-i18n="cta.contactUs">Contact Us</a>
         </div>
       </div>
       <div class="md:w-1/2 flex justify-center">
@@ -93,9 +91,9 @@
   <section id="about">
     <div class="container mx-auto px-4">
       <div class="text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4 font-poppins text-[var(--color-lightest)]" data-i18n="about_home_title">Mengungkap Potensi Terbaik Dalam Organisasi Anda</h2>
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 font-poppins text-[var(--color-lightest)]" data-i18n="home.aboutTitle">Mengungkap Potensi Terbaik Dalam Organisasi Anda</h2>
         <div class="w-full h-1.5 mx-auto rounded-full bg-[var(--color-golden-yellow)]"></div>
-        <p class="text-xl text-[var(--color-golden-yellow)] max-w-3xl mx-auto" data-i18n="gallery_intro">
+        <p class="text-xl text-[var(--color-golden-yellow)] max-w-3xl mx-auto" data-i18n="home.aboutSubtitle">
           Solusi terintegrasi untuk mengoptimalkan talenta dan mencapai keunggulan bisnis yang berkelanjutan
         </p>
       </div>
@@ -105,20 +103,20 @@
         </div>
         <div class="md:w-1/2 text-center md:text-left">
           <div class="p-3 rounded-lg shadow-lg service-card bg-[var(--color-lightest)]">
-          <h1 class="mb-4 leading-relaxed text-lg text-[var(--color-deep-blue)] font-bold" > 
+          <h1 class="mb-4 leading-relaxed text-lg text-[var(--color-deep-blue)] font-bold" data-i18n="home.philosophyLabel"> 
             FILOSOFI KAMI :
           </h1>
-          <h6 class="mb-3 leading-relaxed text-lg text-[var(--color-deep-blue)] font-semibold" > 
+          <h6 class="mb-3 leading-relaxed text-lg text-[var(--color-deep-blue)] font-semibold" data-i18n="home.philosophyTitle"> 
             Potensi Tersembunyi Dibalik Bunga Teratai
             <div class="w-full h-1.5 mx-auto rounded-full bg-[var(--color-muted-blue)]"></div>
           </h6>
           </div>
-          <p class="mb-6 leading-relaxed text-lg text-[var(--color-lightest)]" data-i18n="about_home_desc_1">
+          <p class="mb-6 leading-relaxed text-lg text-[var(--color-lightest)]" data-i18n="home.philosophyDesc1">
             Bilotus terinspirasi oleh filosofi bunga teratai, yang melambangkan kemurnian, ketahanan, dan potensi tersembunyi.
 
             Teratai tumbuh di perairan keruh dan berlumpur, namun mekar menjadi bunga yang indah dan murni di atas permukaan.
           </p>
-          <p class="mb-6 leading-relaxed text-lg text-[var(--color-lightest)]" data-i18n="about_home_desc_2">
+          <p class="mb-6 leading-relaxed text-lg text-[var(--color-lightest)]" data-i18n="home.philosophyDesc2">
             Filosofi ini mencerminkan pendekatan kami dengan cara menggali dan mengungkap potensi tersembunyi setiap individu, meskipun potensi tersebut mungkin belum terlihat di permukaan.
           </p>
         </div>
@@ -139,7 +137,7 @@
       <div class="flex flex-col lg:flex-row gap-12 justify-center">
         <div class="lg:w-full">
           <div class="p-3 rounded-full shadow-lg h-full w-full bg-[var(--color-deep-blue)]">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4 font-poppins text-[var(--color-lightest)]" data-i18n="about_home_title">Visi dan Misi</h2>
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 font-poppins text-[var(--color-lightest)]" data-i18n="home.visionMissionTitle">Visi dan Misi</h2>
         <div class="w-40 h-1.5 mx-auto rounded-full bg-[var(--color-golden-yellow)]"></div>
         </div>
       </div>
@@ -148,10 +146,10 @@
       <div class="mt-12 md:mt-8 lg:mt-4 grid grid-cols-2 gap-12 items-stretch justify-center">
         <!-- Box 1: WhatsApp -->
         <div class="p-8 rounded-xl shadow-2xl flex flex-col items-center justify-center bg-[var(--color-lightest)] h-full">  
-            <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)] hover:scale-110 transition-transform duration-300" data-i18n="contact_gmail">
+            <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)] hover:scale-110 transition-transform duration-300" data-i18n="home.visionTitle">
               Visi
             </h3>
-          <p class="text-center text-[var(--color-deep-blue)]">
+          <p class="text-center text-[var(--color-deep-blue)]" data-i18n="home.visionDesc">
             Bilotus hadir sebagai mitra strategis organisasi dalam mengoptimalkan manajemen talenta. Kami menyediakan solusi terintegrasi berbasis data yang mencakup assessment komprehensif untuk mengidentifikasi dan mengevaluasi potensi talenta, program pengembangan terstruktur untuk membangun kompetensi yang terukur, serta platform teknologi untuk meningkatkan efisiensi dan mendukung keputusan strategis.
 
             Sejak 2016, kami berkomitmen memberikan solusi yang akurat, reliable, dan insights mendalam untuk mendorong keunggulan bisnis organisasi Anda.
@@ -160,10 +158,10 @@
 
         <!-- Box 2: Gmail -->
         <div class="p-8 rounded-xl shadow-2xl flex flex-col items-center justify-center bg-[var(--color-lightest)] h-full">  
-            <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)] hover:scale-110 transition-transform duration-300" data-i18n="contact_gmail">
+            <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)] hover:scale-110 transition-transform duration-300" data-i18n="home.missionTitle">
               Misi
             </h3>
-          <p class="text-center text-[var(--color-deep-blue)]">Menjadi HC Consulting berbasis teknologi yang menyediakan solusi terintegrasi dan berbasis data untuk transformasi manajemen talenta organisasi.</p>
+          <p class="text-center text-[var(--color-deep-blue)]" data-i18n="home.missionDesc">Menjadi HC Consulting berbasis teknologi yang menyediakan solusi terintegrasi dan berbasis data untuk transformasi manajemen talenta organisasi.</p>
         </div>
         </div>
         <div class="text-center mt-8">
@@ -181,7 +179,7 @@
   <section id="services" class="bg-gradient-to-r from-[var(--color-muted-blue)] to-[var(--color-deep-blue)]">
     <div class="container mx-auto px-4">
       <div class="text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4 font-poppins text-[var(--color-golden-yellow)]" data-i18n="services_title">Layanan Kami</h2>
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 font-poppins text-[var(--color-golden-yellow)]" data-i18n="home.servicesTitle">Layanan Kami</h2>
         <div class="w-24 h-1.5 mx-auto rounded-full bg-[var(--color-lightest)]"></div>
       </div>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -190,8 +188,8 @@
           <div class="w-16 h-16 rounded-full flex items-center justify-center mb-6 text-3xl bg-[var(--color-golden-yellow)] text-[var(--color-deep-blue)]">
             <i class="fas fa-clipboard-check"></i>
           </div>
-          <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)]" data-i18n="services_card1_title">Talent Consulting Services</h3>
-          <p class="text-[var(--color-muted-blue)]" data-i18n="services_card1_desc">Layanan konsultasi komprehensif untuk menemukan, mengevaluasi, dan mengoptimalkan talenta dalam organisasi Anda.
+          <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)]" data-i18n="home.service1Title">Talent Consulting Services</h3>
+          <p class="text-[var(--color-muted-blue)]" data-i18n="home.service1Desc" >Layanan konsultasi komprehensif untuk menemukan, mengevaluasi, dan mengoptimalkan talenta dalam organisasi Anda.
               Kami membantu Anda membuat keputusan strategis berbasis data melalui assessment psikometri, executive search, dan advisory untuk penyelarasan strategi SDM dengan tujuan bisnis.</p>
         </div>
         <!-- Card 2 -->
@@ -199,8 +197,8 @@
           <div class="w-16 h-16 rounded-full flex items-center justify-center mb-6 text-3xl bg-[var(--color-golden-yellow)] text-[var(--color-deep-blue)]">
             <i class="fas fa-search"></i>
           </div>
-          <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)]" data-i18n="services_card2_title">Talent Development Programs</h3>
-          <p class="text-[var(--color-muted-blue)]" data-i18n="services_card2_desc">Program pengembangan kompetensi yang dirancang khusus sesuai kebutuhan organisasi Anda.
+          <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)]" data-i18n="home.service2Title">Talent Development Programs</h3>
+          <p class="text-[var(--color-muted-blue)]" data-i18n="home.service2Desc">Program pengembangan kompetensi yang dirancang khusus sesuai kebutuhan organisasi Anda.
               Tersedia dalam berbagai format pembelajaran—dari classroom training, blended learning, hingga experiential outdoor programs—untuk membangun technical, behavioral, dan core competencies secara terukur.</p>
         </div>
         <!-- Card 3 -->
@@ -208,8 +206,8 @@
           <div class="w-16 h-16 rounded-full flex items-center justify-center mb-6 text-3xl bg-[var(--color-golden-yellow)] text-[var(--color-deep-blue)]">
             <i class="fas fa-graduation-cap"></i>
           </div>
-          <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)]" data-i18n="services_card3_title">HR Tech Solutions</h3>
-          <p class="text-[var(--color-muted-blue)]" data-i18n="services_card3_desc">Platform teknologi terintegrasi berbasis AI untuk mengotomasi dan mempermudah seluruh proses manajemen SDM.
+          <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)]" data-i18n="home.service3Title">HR Tech Solutions</h3>
+          <p class="text-[var(--color-muted-blue)]" data-i18n="home.service3Desc">Platform teknologi terintegrasi berbasis AI untuk mengotomasi dan mempermudah seluruh proses manajemen SDM.
               Dari HRIS, penggajian, assessment online, talent mapping, hingga employee self-service.
               Satu platform untuk semua kebutuhan HR Anda dengan akurasi tinggi dan efisiensi maksimal.</p>
         </div>
@@ -227,8 +225,8 @@
   <section id="clients" class="bg-gradient-to-r from-[var(--color-lightest)] to-[var(--color-golden-yellow)]">
     <div class="container mx-auto px-4">
       <div class="text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4 font-poppins text-[var(--color-muted-blue)]" data-i18n="clients_title">Our Esteemed Clients</h2>
-        <p class="text-xl max-w-3xl mx-auto text-[var(--color-golden-yellow)]" data-i18n="clients_subtitle">We've had the privilege of serving organizations across various industries.</p>
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 font-poppins text-[var(--color-muted-blue)]" data-i18n="home.clientsTitle">Our Esteemed Clients</h2>
+        <p class="text-xl max-w-3xl mx-auto text-[var(--color-golden-yellow)]" data-i18n="home.clientsSubtitle">We've had the privilege of serving organizations across various industries.</p>
         <div class="w-24 h-1.5 mx-auto rounded-full mt-4 bg-[var(--color-lightest)]"></div>
       </div>
       <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 items-center justify-center">
@@ -250,21 +248,6 @@
         <div class="p-4 rounded-lg shadow-md flex items-center justify-center h-24 bg-[var(--color-golden-yellow)]">
           <img src="image/dhanarta.png" alt="Bank Dhanarta">
         </div>
-        <div class="p-4 rounded-lg shadow-md flex items-center justify-center h-24 bg-[var(--color-golden-yellow)]">
-          <img src="image/aceh.png" alt="Bank Aceh">
-        </div>
-        <div class="p-4 rounded-lg shadow-md flex items-center justify-center h-24 bg-[var(--color-golden-yellow)]">
-          <img src="image/cni.png" alt="CNI">
-        </div>
-        <div class="p-4 rounded-lg shadow-md flex items-center justify-center h-24 bg-[var(--color-golden-yellow)]">
-          <img src="image/jne.png" alt="JNE">
-        </div>
-        <div class="p-4 rounded-lg shadow-md flex items-center justify-center h-24 bg-[var(--color-golden-yellow)]">
-          <img src="image/nanobank.png" alt="Nano Bank">
-        </div>
-        <div class="p-4 rounded-lg shadow-md flex items-center justify-center h-24 bg-[var(--color-golden-yellow)]">
-          <img src="image/perdhaki.jpg" alt="perdhaki">
-        </div>
       </div>
       <div class="text-center mt-12">
           <a href="clients.html" class="btn-fun inline-flex items-center group" data-i18n="clients_cta">
@@ -282,9 +265,9 @@
       <div class="flex flex-col lg:flex-row gap-12 justify-center">
         <div class="lg:w-1/2">
           <div class="p-8 rounded-xl shadow-lg h-full bg-[var(--color-lightest)]">
-            <h3 class="text-2xl font-semibold mb-6 font-poppins text-[var(--color-deep-blue)]" data-i18n="contact_info_title">Contact Information</h3>
-            <p class="text-lg text-[var(--color-muted-blue)]" data-i18n="contact_email_label">Email: info@bilotusconsulting.com</p>
-            <p class="text-lg text-[var(--color-muted-blue)]" data-i18n="contact_phone_label">Phone: +62 818 0818 7026</p>
+            <h3 class="text-2xl font-semibold mb-6 font-poppins text-[var(--color-deep-blue)]" data-i18n="footer.contactTitle">Contact Information</h3>
+            <p class="text-lg text-[var(--color-muted-blue)]" data-i18n="contact_email_label" data-i18n="footer.email">Email: info@bilotusconsulting.com</p>
+            <p class="text-lg text-[var(--color-muted-blue)]" data-i18n="contact_phone_label" data-i18n="footer.phone">Phone: +62 818 0818 7026</p>
           </div>
         </div>
       </div>
@@ -320,7 +303,7 @@
   <!-- Footer -->
   <footer class="py-12 bg-[var(--color-deep-blue)]">
     <div class="container mx-auto px-4 text-center">
-      <p class="text-lg text-[var(--color-lightest)]" data-i18n="footer_copyright">&copy; 2023 Bilotus Consulting. All rights reserved.</p>
+      <p class="text-lg text-[var(--color-lightest)]" data-i18n="footer.copyright">&copy; 2023 Bilotus Consulting. All rights reserved.</p>
     </div>
   </footer>
 
@@ -346,5 +329,3 @@
 </body>
 
 </html>
-
-
