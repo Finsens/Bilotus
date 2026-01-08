@@ -1,164 +1,160 @@
 {
-  "nav_home": "Beranda",
-  "nav_about": "Tentang Kami",
-  "nav_services": "Layanan",
-  "nav_clients": "Klien",
-  "nav_gallery": "Galeri",
-  "nav_contact": "Kontak",
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "services": "Layanan",
+    "clients": "Klien",
+    "gallery": "Galeri",
+    "contact": "Kontak"
+  },
 
-  "hero_title": "Temukan, Kembangkan, Optimalkan",
-  "hero_subtitle": "Membangun kompetensi yang mendorong keunggulan bisnis berkelanjutan",
+  "footer": {
+    "contactTitle": "Informasi Kontak",
+    "email": "Email: info@bilotusconsulting.com",
+    "phone": "Telepon: +62 818 0818 7026",
+    "copyright": "© 2025 Bilotus Consulting. Seluruh hak cipta dilindungi."
+  },
 
-  "about_home_title": "Tentang Bilotus Consulting",
-  "about_home_desc_1": "Bilotus adalah perusahaan konsultan manajemen yang berfokus pada layanan Sumber Daya Manusia. Didirikan pada tahun 2016, kami berfokus untuk mendukung klien dalam mencapai tujuan strategis dan organisasi mereka.",
-  "about_home_desc_2": "Bilotus terinspirasi dari filosofi bunga teratai yang melambangkan kemurnian, ketangguhan, serta potensi tersembunyi.",
-  "about_home_cta": "Klit Untuk Lebih Lanjut",
+  "cta": {
+    "learnMore": "Lihat Selengkapnya",
+    "contactUs": "Hubungi Kami",
+    "ourServices": "Layanan Kami"
+  },
 
-  "services_title": "Lima Area Layanan Terintegrasi Kami",
+  "home": {
+    "heroTitle": "Discover, Develop, Optimize",
+    "heroSubtitle": "Membangun Kompetensi yang Mendorong Keunggulan Bisnis",
 
-  "services_card1_title": "Bilotus Integrated Talent Assessment",
-  "services_card1_desc": "Solusi asesmen yang komprehensif untuk mengevaluasi talenta melalui metodologi psikometrik dan berbasis kompetensi.",
+    "aboutTitle": "Mengungkap Potensi Terbaik Dalam Organisasi Anda",
+    "aboutSubtitle": "Solusi terintegrasi untuk mengoptimalkan talenta dan mencapai keunggulan bisnis yang berkelanjutan",
 
-  "services_card2_title": "Bilotus Talent Search",
-  "services_card2_desc": "Layanan akuisisi talenta strategis yang berfokus pada identifikasi kandidat berkualitas tinggi yang selaras dengan budaya organisasi dan tujuan bisnis.",
+    "philosophyLabel": "FILOSOFI KAMI",
+    "philosophyTitle": "Potensi Tersembunyi Dibalik Bunga Teratai",
+    "philosophyDesc1": "Bilotus terinspirasi oleh filosofi bunga teratai, yang melambangkan kemurnian, ketahanan, dan potensi tersembunyi. Teratai tumbuh di perairan keruh dan berlumpur, namun mekar menjadi bunga yang indah dan murni di atas permukaan.",
+    "philosophyDesc2": "Filosofi ini mencerminkan pendekatan kami dalam menggali dan mengungkap potensi tersembunyi setiap individu, meskipun potensi tersebut mungkin belum terlihat di permukaan.",
 
-  "services_card3_title": "Bilotus Talent Academy",
-  "services_card3_desc": "Program pembelajaran terstruktur dan blended learning yang dirancang untuk meningkatkan kompetensi melalui pelatihan dan sertifikasi yang sistematis.",
+    "visionMissionTitle": "Visi dan Misi",
+    "visionTitle": "Visi",
+    "visionDesc": "Bilotus hadir sebagai mitra strategis organisasi dalam mengoptimalkan manajemen talenta melalui solusi terintegrasi berbasis data.",
+    "missionTitle": "Misi",
+    "missionDesc": "Menjadi HC Consulting berbasis teknologi yang menyediakan solusi terintegrasi dan berbasis data untuk transformasi manajemen talenta organisasi.",
 
-  "services_card4_title": "Bilotus Talent Expedition",
-  "services_card4_desc": "Program pengembangan berbasis pengalaman di alam terbuka yang menekankan kompetensi perilaku dan budaya melalui pembelajaran yang imersif.",
+    "servicesTitle": "Layanan Kami",
+    "service1Title": "Talent Consulting Services",
+    "service1Desc": "Layanan konsultasi komprehensif untuk menemukan, mengevaluasi, dan mengoptimalkan talenta.",
+    "service2Title": "Talent Development Programs",
+    "service2Desc": "Program pengembangan kompetensi yang dirancang sesuai kebutuhan organisasi.",
+    "service3Title": "HR Tech Solutions",
+    "service3Desc": "Platform teknologi terintegrasi berbasis AI untuk mendukung manajemen SDM.",
 
-  "services_card5_title": "Bilotus Strategic Advisory",
-  "services_card5_desc": "Layanan konsultasi Sumber Daya Manusia dan pengembangan organisasi yang menyelaraskan strategi talenta dengan pertumbuhan bisnis yang berkelanjutan.",
+    "clientsTitle": "Klien Kami",
+    "clientsSubtitle": "Kami telah dipercaya oleh berbagai organisasi dari beragam industri."
+  },
+  "about": {
+    "heroTitle": "Filosofi Kami",
+    "heroQuote": "Potensi Tersembunyi Dibalik Bunga Teratai",
 
-  "services_cta": "Lihat Selengkapnya",
+    "heroDesc1": "Bilotus terinspirasi oleh filosofi bunga teratai, yang melambangkan kemurnian, ketahanan, dan potensi tersembunyi.",
+    "heroDesc2": "Teratai tumbuh di perairan keruh dan berlumpur, namun mekar menjadi bunga yang indah dan murni di atas permukaan.",
+    "heroDesc3": "Filosofi ini mencerminkan pendekatan kami dalam menggali dan mengungkap potensi tersembunyi setiap individu, meskipun potensi tersebut mungkin belum terlihat di permukaan.",
 
-  "clients_title": "Klien Terpercaya Kami",
-  "clients_subtitle": "Kami dipercaya oleh berbagai organisasi dari beragam industri.",
-  "clients_cta": "Lihat Selengkapnya",
+    "visionTitle": "Visi",
+    "visionDesc": "Menjadi HC Consulting berbasis teknologi yang menyediakan solusi terintegrasi dan berbasis data untuk transformasi manajemen talenta organisasi.",
 
-  "contact_title": "Hubungi Kami",
-  "contact_subtitle": "Kami dengan senang hati mendengar dari Anda.",
-  "contact_info_title": "Informasi Kontak",
-  "contact_email_label": "Email : @bilotusconsulting.com",
-  "contact_phone_label": "Telepon : +62 812 3456 7890",
-  "contact_gmail": "Tekan Untuk Menuju Gmail Kami",
-  "contact_wa": "Tekan Untuk Menuju WhatsApp Kami",
+    "missionTitle": "Misi",
+    "missionDesc1": "Bilotus hadir sebagai mitra strategis organisasi dalam mengoptimalkan manajemen talenta melalui solusi terintegrasi berbasis data. Kami menyediakan assessment komprehensif untuk mengidentifikasi potensi talenta, program pengembangan terstruktur untuk membangun kompetensi yang terukur, serta platform teknologi untuk mendukung keputusan strategis.",
+    "missionDesc3": "Sejak 2016, kami berkomitmen memberikan solusi yang akurat, reliable, dan insights mendalam untuk mendorong keunggulan bisnis organisasi Anda.",
 
-  "footer_copyright": "© 2023 Bilotus Consulting. Seluruh hak cipta dilindungi.",
+    "approachTitle": "Pendekatan Terintegrasi Kami",
+    "approachSubtitle": "Dari Filosofi ke Hasil Nyata",
 
-  "about_page_title": "Tentang Bilotus Consulting",
+    "approachItem1Title": "Filosofi Inti",
+    "approachItem1Desc": "Menggali potensi setiap individu",
 
-  "about_hero_title": "Tentang Perusahaan Kami",
-  "about_hero_desc_1": "Bilotus adalah perusahaan konsultan manajemen yang berfokus pada layanan Sumber Daya Manusia. Kami telah beroperasi sejak tahun 2016 dengan fokus membantu klien mencapai tujuan yang telah ditetapkan. Kami telah melayani berbagai klien, termasuk instansi pemerintah, BUMN, perusahaan swasta, institusi pendidikan, serta organisasi nirlaba lainnya.",
-  "about_hero_desc_2": "Bilotus terinspirasi dari filosofi bunga teratai yang melambangkan kemurnian, ketangguhan, dan potensi tersembunyi. Bunga teratai tumbuh di lingkungan berlumpur dan keruh, namun mampu mekar menjadi bunga yang indah dan bersih di atas permukaan. Filosofi ini mencerminkan keyakinan kami bahwa setiap individu memiliki potensi luar biasa, meskipun terkadang tersembunyi oleh tantangan dan kondisi yang sulit.",
+    "approachItem2Title": "Keunggulan Bisnis",
+    "approachItem2Desc": "Keputusan strategis berbasis data",
 
-  "about_tagline_title": "Tagline Kami",
-  "about_tagline_main": "Discover, Develop, Optimize",
-  "about_tagline_desc_1": "Terinspirasi dari filosofi bunga teratai, Bilotus hadir untuk mendukung organisasi dalam membangun keunggulan melalui pengembangan kompetensi yang komprehensif.",
-  "about_tagline_quote": "Discover, Develop, Optimize: Membangun Kompetensi yang Mendorong Keunggulan Bisnis",
-  "about_tagline_desc_2": "Tagline ini mencerminkan pendekatan menyeluruh kami dalam pengelolaan sumber daya manusia melalui pengembangan kompetensi teknis, perilaku, dan kompetensi inti.",
+    "approachItem3Title": "Metodologi Teruji",
+    "approachItem3Desc": "Metodologi berbasis sains dan kompetensi",
 
-  "about_services_intro": "Lima layanan inti kami membentuk siklus manajemen talenta yang komprehensif melalui pengembangan kompetensi yang terintegrasi:",
+    "approachItem4Title": "Platform Teknologi",
+    "approachItem4Desc": "Solusi digital untuk efisiensi dan akurasi"
+  },
+  "services": {
+    "heroTitle": "Layanan Kami",
+    "heroSubtitle": "Kami menyediakan tiga kategori layanan utama yang saling melengkapi untuk mendukung siklus manajemen talenta organisasi Anda secara menyeluruh",
 
-  "about_service_discover_title": "Discover",
-  "about_service_discover_desc": "Kami membantu organisasi mengidentifikasi dan memahami talenta melalui Bilotus Integrated Talent Assessment serta Bilotus Talent Search yang berfokus pada identifikasi dan rekrutmen talenta unggul sesuai kebutuhan organisasi.",
+    "section1Title": "Talent Consulting Services",
+    "section1Desc1": "Layanan konsultasi komprehensif untuk menemukan, mengevaluasi, dan mengoptimalkan talenta dalam organisasi Anda.",
+    "section1Desc2": "Kami membantu organisasi membuat keputusan strategis berbasis data melalui assessment psikometri, executive search, serta advisory untuk penyelarasan strategi SDM dengan tujuan bisnis.",
 
-  "about_service_develop_title": "Develop",
-  "about_service_develop_desc": "Kami meningkatkan kapabilitas individu dan tim melalui Bilotus Talent Academy serta Bilotus Talent Expedition yang mengombinasikan pembelajaran terstruktur dan pengalaman langsung.",
+    "section2Title": "Talent Development Programs",
+    "section2Desc1": "Program pengembangan kompetensi yang dirancang khusus sesuai kebutuhan organisasi Anda.",
+    "section2Desc2": "Tersedia dalam berbagai format pembelajaran, mulai dari classroom training, blended learning, hingga experiential outdoor programs, untuk membangun technical, behavioral, dan core competencies secara terukur.",
 
-  "about_service_optimize_title": "Optimize",
-  "about_service_optimize_desc": "Kami mengoptimalkan pemanfaatan talenta dan efektivitas organisasi melalui Bilotus Strategic Advisory yang berfokus pada strategi human capital dan transformasi organisasi.",
+    "section3Title": "HR Tech Solutions",
+    "section3Desc1": "Platform teknologi terintegrasi berbasis AI untuk mengotomasi dan mempermudah seluruh proses manajemen SDM.",
+    "section3Desc2": "Mencakup HRIS, penggajian, assessment online, talent mapping, hingga employee self-service dalam satu platform yang efisien dan akurat.",
 
-  "about_services_cta": "Lihat Layanan Kami",
+    "cycleTitle": "Siklus Layanan Terintegrasi",
+    "cycleSubtitle": "Ketiga kategori layanan kami dirancang untuk mendukung siklus manajemen talenta secara holistik, dari identifikasi hingga optimalisasi berkelanjutan.",
 
-  "about_footer_copyright": "© 2025 Bilotus Consulting. Seluruh hak cipta dilindungi.",
+    "cycleDiscoverTitle": "Discover",
+    "cycleDiscoverSubtitle": "Menemukan & Mengevaluasi Talenta Terbaik",
+    "cycleDiscoverDesc": "Melalui Talent Consulting Services, kami membantu mengidentifikasi potensi tersembunyi, merekrut talenta unggul, serta memberikan advisory strategis untuk keputusan SDM yang tepat.",
 
-  "services_hero_title": "Layanan Kami",
-  "services_hero_subtitle": "Jelajahi lima area layanan terintegrasi kami yang dirancang untuk memberdayakan individu dan organisasi melalui solusi SDM yang disesuaikan.",
+    "cycleDevelopTitle": "Develop",
+    "cycleDevelopSubtitle": "Mengembangkan Kompetensi Secara Terstruktur",
+    "cycleDevelopDesc": "Melalui Talent Development Programs, kami membangun technical, behavioral, dan core competencies melalui berbagai metode pembelajaran yang disesuaikan dengan kebutuhan organisasi.",
 
-  "services_1_title": "Bilotus Integrated Talent Assessment",
-  "services_1_desc": "Solusi evaluasi talenta yang komprehensif melalui platform digital yang fleksibel dengan opsi tatap muka tradisional. Evaluasi psikologis dan asesmen berbasis kompetensi terintegrasi kami mencakup potensi individu dan kompetensi untuk pengembangan serta penempatan talenta yang didukung oleh analisis psikologis yang andal dan profesional.",
+    "cycleOptimizeTitle": "Optimize",
+    "cycleOptimizeSubtitle": "Mengoptimalkan Kinerja dengan Teknologi",
+    "cycleOptimizeDesc": "Melalui HR Tech Solutions, kami mendukung optimalisasi berkelanjutan dengan platform teknologi terintegrasi untuk efisiensi dan akurasi pengelolaan SDM."
+  },
+  "clients": {
+    "heroTitle": "Mitra Terpercaya Lintas Industri",
+    "heroSubtitle": "Melayani organisasi swasta, pemerintahan, dan BUMN dalam berbagai proyek sebagai project owner maupun associate.",
 
-  "services_1_box_title": "Apa yang Anda Dapatkan dari Layanan Ini?",
-  "services_1_box_desc": "Asesmen komprehensif kami memberikan wawasan yang dapat ditindaklanjuti melalui simulasi psikologis dan perilaku terapan. Anda akan menerima laporan terperinci yang mencakup keterampilan perilaku, karakter pribadi, potensi kepemimpinan, dan pemetaan kompetensi.",
-  "services_1_framework_title": "Cakupan Kerangka Kompetensi Kami:",
-  "services_1_framework_tech": "Keterampilan dan Keahlian Spesifik",
-  "services_1_framework_behavior": "Efektivitas Kepemimpinan dan Interpersonal",
-  "services_1_framework_core": "Keselarasan Nilai dan Kesesuaian Organisasi",
+    "listTitle": "Beberapa Mitra Terpercaya Kami",
+    "listSubtitle": "Berikut adalah organisasi yang telah mempercayakan berbagai inisiatif manajemen talenta kepada Bilotus Consulting.",
 
-  "services_2_title": "Bilotus Talent Search",
-  "services_2_desc": "Layanan executive search premium dan akuisisi talenta strategis yang dirancang untuk posisi C-level dan pimpinan senior. Melalui proses yang komprehensif dan rahasia, kami mengidentifikasi serta merekrut eksekutif unggul yang selaras dengan budaya, visi, dan tujuan strategis perusahaan Anda.",
+    "note": "Daftar klien terus bertambah seiring dengan kepercayaan yang diberikan oleh berbagai organisasi dari beragam sektor industri."
+  },
+  "gallery": {
+    "heroTitle": "Galeri Kegiatan",
+    "heroSubtitle": "Dokumentasi sesi assessment dan pelatihan yang telah kami selenggarakan, baik secara offline maupun online",
 
-  "services_2_box_title": "Apa yang Anda Dapatkan dari Layanan Ini",
-  "services_2_box_desc": "Kami menghadirkan kandidat unggulan yang telah berhasil dalam peran serupa. Setiap kandidat melalui proses seleksi menyeluruh terkait kompetensi, kesesuaian budaya, dan kapabilitas kepemimpinan.",
-  "services_2_receive_title": "Anda Akan Menerima:",
-  "services_2_item_1": "Eksekutif C-level dan pimpinan senior yang berkualitas",
-  "services_2_item_2": "Laporan keselarasan budaya",
-  "services_2_item_3": "Verifikasi rekam jejak kepemimpinan",
-  "services_2_item_4": "Pemeriksaan latar belakang menyeluruh",
-  "services_2_item_5": "Dukungan integrasi",
+    "sectionTitle": "Memorable Moments",
 
-  "services_3_title": "Bilotus Talent Academy",
-  "services_3_desc": "Solusi pelatihan komprehensif yang dibangun berdasarkan kerangka tiga kompetensi kami. Kami mengembangkan kompetensi Teknis, Perilaku, dan Inti melalui program pembelajaran terstruktur dengan metodologi yang telah terbukti.",
+    "item1Title": "Workshop Talent Expedition",
+    "item1Desc": "Pelatihan kepemimpinan untuk manajer baru bersama tim HR.",
 
-  "services_3_box_title": "Apa yang Anda Dapatkan dari Layanan Ini",
-  "services_3_box_desc": "Kami menyediakan pengembangan kompetensi menyeluruh pada aspek Teknis, Perilaku, dan Inti (Budaya). Setiap program dirancang untuk membangun kompetensi spesifik dengan hasil pembelajaran terukur.",
-  "services_3_deliverable_title": "Hasil Utama",
-  "services_3_item_1": "Modul pelatihan kompetensi teknis",
-  "services_3_item_2": "Pengembangan kompetensi perilaku",
-  "services_3_item_3": "Keselarasan budaya perusahaan",
-  "services_3_item_4": "Asesmen dan sertifikasi kompetensi",
-  "services_3_item_5": "Pemantauan peningkatan kinerja",
+    "item2Title": "Workshop \"Be Familiar With Your Talent\"",
+    "item2Desc": "Kegiatan outdoor untuk memperkuat kerja sama tim lintas divisi.",
 
-  "services_4_title": "Bilotus Talent Expedition",
-  "services_4_desc": "Pengembangan berbasis pengalaman di alam terbuka yang mencakup seluruh format ekspedisi tim. Dari perjalanan petualangan intensif hingga program luar ruang terstruktur.",
+    "item3Title": "Workshop di Paviliun Sunea",
+    "item3Desc": "Sesi pengembangan kompetensi bersama peserta dari berbagai latar belakang.",
 
-  "services_4_box_title": "Apa yang Anda Dapatkan dari Layanan Ini",
-  "services_4_box_desc": "Kami menghadirkan pengalaman ekspedisi komprehensif melalui petualangan luar ruang hingga perjalanan tantangan intensif.",
-  "services_4_outcome_title": "Hasil Utama:",
-  "services_4_item_1": "Peningkatan kompetensi perilaku",
-  "services_4_item_2": "Penguatan keselarasan nilai inti",
-  "services_4_item_3": "Peningkatan kolaborasi dan kepercayaan tim",
-  "services_4_item_4": "Pengembangan keterampilan kepemimpinan dalam situasi dinamis",
+    "item4Title": "Online Workshop",
+    "item4Desc": "Pelatihan daring untuk meningkatkan kompetensi profesional secara fleksibel.",
 
-  "services_5_title": "Bilotus Strategic Advisory",
-  "services_5_desc": "Konsultasi SDM strategis dengan pendekatan berbasis bisnis untuk keunggulan organisasi. Kami memberikan panduan ahli dan solusi terukur.",
+    "item5Title": "Online Workshop Quality Assessment",
+    "item5Desc": "Sesi assessment daring untuk memastikan kualitas dan akurasi pengukuran kompetensi.",
 
-  "services_5_box_title": "Apa yang Anda Dapatkan dari Layanan Ini",
-  "services_5_box_desc": "Kami menyediakan layanan konsultasi SDM strategis yang menyelaraskan pengelolaan talenta dengan tujuan bisnis.",
-  "services_5_deliverable_title": "Hasil Utama",
-  "services_5_item_1": "Analisis keselarasan strategi bisnis dan SDM",
-  "services_5_item_2": "Perancangan dan restrukturisasi organisasi",
-  "services_5_item_3": "Strategi pengelolaan talenta dan pengembangan budaya",
-  "services_5_item_4": "Sistem manajemen kinerja dan kapabilitas",
+    "item6Title": "CSR Activity",
+    "item6Desc": "Program tanggung jawab sosial perusahaan di bidang pendidikan dan pengembangan masyarakat."
+  },
+  "contact": {
+    "heroTitle": "Kami Siap Berdiskusi",
+    "heroSubtitle": "Bagaimana Bilotus Consulting dapat membantu organisasi Anda mencapai tujuan strategis.",
 
- "clients_page_title": "Klien Terhormat Kami",
-  "clients_intro": "Kami bangga bermitra dengan berbagai organisasi terkemuka lintas industri, membangun hubungan jangka panjang berdasarkan kepercayaan dan keunggulan.",
-  "clients_list_label": "Daftar klien, baik sebagai pemilik proyek, mitra bisnis maupun rekan, antara lain:",
+    "infoTitle": "Informasi Kontak",
+    "emailLabel": "Email: info@bilotusconsulting.com",
+    "phoneLabel": "Telepon: +62 818 0818 7026",
 
-  "gallery_page_title": "Galeri Kami",
-  "gallery_intro": "Sekilas tentang perjalanan kami, acara, dan momen bersama klien & mitra.",
-
-  "gallery_section_memorable": "Momen Berkesan",
-
-  "gallery_item1_title": "Workshop Talent Expedition",
-  "gallery_item1_desc": "Pelatihan kepemimpinan untuk manajer baru bersama tim HR.",
-
-  "gallery_item2_title": "Workshop \"Be Familiar With Your Talent\"",
-  "gallery_item2_desc": "Kegiatan di alam bebas untuk memperkuat kerja sama tim lintas divisi.",
-
-  "gallery_item3_title": "Workshop Di Paviliun Sunea",
-  "gallery_item3_desc": "Acara apresiasi bersama klien utama tahun 2024.",
-
-  "gallery_item4_title": "Online Workshop",
-  "gallery_item4_desc": "Program pengabdian masyarakat di bidang pendidikan dan kesehatan.",
-
-  "gallery_item5_title": "Online Workshop Quality Assessment",
-  "gallery_item5_desc": "Program pengabdian masyarakat di bidang pendidikan dan kesehatan.",
-
-  "gallery_item6_title": "CSR Activity",
-  "gallery_item6_desc": "Program pengabdian masyarakat di bidang pendidikan dan kesehatan."
+    "whatsappCta": "Klik untuk Menghubungi Kami via WhatsApp",
+    "gmailCta": "Klik untuk Mengirim Email kepada Kami"
+  }
 
 }
 
