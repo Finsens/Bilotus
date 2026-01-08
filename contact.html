@@ -1,0 +1,138 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bilotus Consulting - Gallery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Tag Manager -->
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-M83H8CFQ');</script>
+      <!-- End Google Tag Manager -->
+  </head>
+  <body class="font-open-sans bg-[var(--color-deep-blue)] text-[var(--color-lightest)]">
+
+    <!-- Header -->
+    <header class="shadow-sm sticky top-0 z-50 bg-gradient-to-r from-[var(--color-golden-yellow)] to-[var(--color-lightest)]">
+      <div class="container mx-auto px-4 py-0 flex justify-between items-center">
+        <!-- Logo -->
+        <div class="flex items-center">
+          <img src="image/Logo.png" alt="Logo Bilotus" class="h-16 w-16">
+          <img src="image/Logo (2).png" alt="Nama PT" class="h-auto w-24">
+        </div>
+
+          <!-- NAV Desktop -->
+      <nav class="hidden md:flex space-x-8">
+      <a href="index.html#home" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.home">Home</a>
+      <a href="aboutus.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.about">About Us</a>
+      <a href="services.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.services">Services</a>
+      <a href="clients.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.clients">Clients</a>
+      <a href="gallery.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.gallery">Gallery</a>
+      <a href="contact.html" class="nav-link text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.contact">Contact</a>
+    </nav>
+        <div class="hidden md:flex items-center gap-2 ml-4">
+      <button
+        onclick="setLanguage('id')"
+            class="px-2 py-1 text-sm font-bold text-[var(--color-deep-blue)] bg-[var(--color-golden-yellow)] rounded"
+  >
+      ID
+    </button>
+
+    <button
+      onclick="setLanguage('en')"
+          class="px-2 py-1 text-sm font-bold text-[var(--color-deep-blue)] bg-[var(--color-golden-yellow)] rounded"
+    >
+      EN
+    </button>
+    </div>
+
+
+      <!-- Hamburger Mobile -->
+      <button id="hamburger" class="md:hidden text-2xl text-[var(--color-deep-blue)]">
+      <i class="fas fa-bars"></i>
+      </button>
+    </div>
+      <!-- NAV Mobile (Dropdown) -->
+  <nav id="mobileMenu" class="hidden flex-col space-y-4 px-4 py-4 bg-[var(--color-lightest)] md:hidden shadow-lg">
+    <a href="index.html#home" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.home">Home</a>
+    <a href="aboutus.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.about">About Us</a>
+    <a href="services.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.services">Services</a>
+    <a href="clients.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.clients">Clients</a>
+    <a href="gallery.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.gallery">Gallery</a>
+    <a href="contact.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.contact">Contact</a>
+  </nav>
+    </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-[var(--color-muted-blue)] to-[var(--color-deep-blue)] py-20">
+      <div class="container mx-auto px-4 text-center">
+        <h1 class="text-4xl md:text-6xl font-bold mb-6 font-poppins text-[var(--color-lightest)]" data-i18n="contact.heroTitle">Kami siap berdiskusi bagaimana Bilotus Consulting dapat membantu organisasi Anda mencapai tujuan.</h1>
+      </div>
+    <div class="container mx-auto px-4 py-16">
+      <div class="text-center mb-16">
+      <div class="flex flex-col lg:flex-row gap-12 justify-center">
+        <div class="lg:w-1/2">
+          <div class="p-8 rounded-xl shadow-lg h-full bg-[var(--color-lightest)]">
+            <h3 class="text-2xl font-semibold mb-6 font-poppins text-[var(--color-deep-blue)]" data-i18n="contact.infoTitle">Contact Information</h3>
+            <p class="text-lg text-[var(--color-muted-blue)]" data-i18n="contact.emailLabel">Email: info@bilotusconsulting.com</p>
+            <p class="text-lg text-[var(--color-muted-blue)]" data-i18n="contact.phoneLabel">Phone: +62 818 0818 7026</p>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="mt-12 md:mt-8 lg:mt-4 grid grid-cols-2 gap-12 items-stretch justify-center">
+        <!-- Box 1: WhatsApp -->
+        <div class="p-8 rounded-xl shadow-2xl flex flex-col items-center justify-center bg-[var(--color-lightest)] h-full">
+          <a href="https://wa.me/081808187026" target="_blank" rel="noopener noreferrer">  
+            <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)] hover:scale-110 transition-transform duration-300" data-i18n="contact.whatsappCta">
+              Click To Go Our WhatsApp
+            </h3>
+          </a>
+          <a href="https://wa.me/081808187026" target="_blank" rel="noopener noreferrer">
+            <img src="image/logo wa.png" alt="WhatsApp" class="w-24 h-24 hover:scale-110 transition-transform duration-300">
+          </a>
+        </div>
+
+        <!-- Box 2: Gmail -->
+        <div class="p-8 rounded-xl shadow-2xl flex flex-col items-center justify-center bg-[var(--color-lightest)] h-full">
+          <a href="mailto:info@bilotusconsulting.com" target="_blank" rel="noopener noreferrer">  
+            <h3 class="text-xl font-semibold mb-3 font-poppins text-[var(--color-deep-blue)] hover:scale-110 transition-transform duration-300" data-i18n="contact.gmailCta">
+              Click To Go Our Gmail
+            </h3>
+          </a>
+          <a href="mailto:info@bilotusconsulting.com" target="_blank" rel="noopener noreferrer">
+            <img src="image/logo gmail.svg" alt="Gmail" class="w-24 h-16 hover:scale-110 transition-transform duration-300">
+          </a>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-[var(--color-deep-blue)]">
+      <div class="container mx-auto px-4 text-center">
+        <p class="text-lg text-[var(--color-lightest)]" data-i18n="footer.copyright">&copy; 2025 Bilotus Consulting. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="backToTop" class="fixed bottom-6 right-6 p-3 rounded-full bg-[var(--color-deep-blue)] text-white shadow-lg hover:bg-[var(--color-deep-blue-hover)] transition duration-300">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/script.js"></script>
+
+    <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M83H8CFQ"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+  </body>
+  </html>
