@@ -30,14 +30,16 @@
 
     "philosophyLabel": "OUR PHILOSOPHY",
     "philosophyTitle": "Hidden Potential Behind the Lotus Flower",
-    "philosophyDesc1": "Bilotus is inspired by the philosophy of the lotus flower, symbolizing purity, resilience, and hidden potential. The lotus grows in muddy waters yet blooms beautifully above the surface.",
-    "philosophyDesc2": "This philosophy reflects our approach to uncovering and developing the hidden potential within every individual.",
+    "philosophyDesc1": "Bilotus is inspired by the philosophy of the lotus flower, symbolizing purity, resilience, and hidden potential.",
+    "philosophyDesc2": "The lotus grows in muddy waters yet blooms beautifully above the surface.",
+    "philosophyDesc3": "This philosophy reflects our approach to uncovering and developing the hidden potential within every individual.",
 
     "visionMissionTitle": "Vision and Mission",
     "visionTitle": "Vision",
-    "visionDesc": "Bilotus serves as a strategic partner in optimizing talent management through integrated, data-driven solutions.",
+    "visionDesc": "To become a technology-based HC Consulting firm delivering integrated, data-driven talent management solutions.",
     "missionTitle": "Mission",
-    "missionDesc": "To become a technology-based HC Consulting firm delivering integrated, data-driven talent management solutions.",
+    "missionDesc1": "Bilotus serves as a strategic partner for organizations in optimizing talent management. We provide integrated, data-driven solutions that include comprehensive assessments to identify and evaluate talent potential, structured development programs to build measurable competencies, and technology platforms to enhance efficiency and support strategic decision-making.",
+    "missionDesc3": "Since 2016, we have been committed to delivering accurate, reliable, and insightful solutions to drive sustainable business excellence.",
 
     "servicesTitle": "Our Services",
     "service1Title": "Talent Consulting Services",
@@ -101,15 +103,21 @@
 
     "cycleDiscoverTitle": "Discover",
     "cycleDiscoverSubtitle": "Identifying & Evaluating the Best Talent",
-    "cycleDiscoverDesc": "Through Talent Consulting Services, we help uncover hidden potential, recruit exceptional talent, and provide strategic advisory for informed HR decisions.",
+    "cycleDiscoverDesc": "Through",
+    "cycleDiscoverDesc1":"Talent Consulting Services",
+    "cycleDiscoverDesc2": ", we help uncover hidden potential, recruit exceptional talent, and provide strategic advisory for informed HR decisions.",
 
     "cycleDevelopTitle": "Develop",
     "cycleDevelopSubtitle": "Structured Competency Development",
-    "cycleDevelopDesc": "Through Talent Development Programs, we build technical, behavioral, and core competencies using learning methods tailored to organizational needs.",
+    "cycleDevelopDesc": "Through",
+    "cycleDevelopDesc1": "Talent Development Programs",
+    "cycleDevelopDesc2": ", we build technical, behavioral, and core competencies using learning methods tailored to organizational needs.",
 
     "cycleOptimizeTitle": "Optimize",
     "cycleOptimizeSubtitle": "Optimizing Performance with Technology",
-    "cycleOptimizeDesc": "Through HR Tech Solutions, we enable continuous optimization with integrated technology platforms that enhance efficiency and accuracy in HR management."
+    "cycleOptimizeDesc": "Through",
+    "cycleOptimizeDesc1": "HR Tech Solutions",
+    "cycleOptimizeDesc2": ", we enable continuous optimization with integrated technology platforms that enhance efficiency and accuracy in HR management."
   },
   "clients": {
     "heroTitle": "Trusted Partners Across Industries",
