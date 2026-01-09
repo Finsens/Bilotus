@@ -114,6 +114,32 @@ section {
   align-items: center;
 }
 
+.section-filosofi {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-image: url("../image/teratai.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.section-filosofi .overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(10, 40, 90, 0.45);
+}
+
+.section-filosofi .content {
+  max-width: 900px;
+  text-align: center;
+  padding: 40px;
+  position: relative;
+  z-index: 1;
+}
+
+
 /* Service Cards */
 .service-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
