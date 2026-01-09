@@ -30,14 +30,16 @@
 
     "philosophyLabel": "FILOSOFI KAMI",
     "philosophyTitle": "Potensi Tersembunyi Dibalik Bunga Teratai",
-    "philosophyDesc1": "Bilotus terinspirasi oleh filosofi bunga teratai, yang melambangkan kemurnian, ketahanan, dan potensi tersembunyi. Teratai tumbuh di perairan keruh dan berlumpur, namun mekar menjadi bunga yang indah dan murni di atas permukaan.",
-    "philosophyDesc2": "Filosofi ini mencerminkan pendekatan kami dalam menggali dan mengungkap potensi tersembunyi setiap individu, meskipun potensi tersebut mungkin belum terlihat di permukaan.",
+    "philosophyDesc1": "Bilotus terinspirasi oleh filosofi bunga teratai, yang melambangkan kemurnian, ketahanan, dan potensi tersembunyi.",
+    "philosophyDesc2": "Teratai tumbuh di perairan keruh dan berlumpur, namun mekar menjadi bunga yang indah dan murni di atas permukaan.",
+    "philosophyDesc3": "Filosofi ini mencerminkan pendekatan kami dalam menggali dan mengungkap potensi tersembunyi setiap individu, meskipun potensi tersebut mungkin belum terlihat di permukaan.",
 
     "visionMissionTitle": "Visi dan Misi",
     "visionTitle": "Visi",
-    "visionDesc": "Bilotus hadir sebagai mitra strategis organisasi dalam mengoptimalkan manajemen talenta melalui solusi terintegrasi berbasis data.",
+    "visionDesc": "Menjadi HC Consulting berbasis teknologi yang menyediakan solusi terintegrasi dan berbasis data untuk transformasi manajemen talenta organisasi.",
     "missionTitle": "Misi",
-    "missionDesc": "Menjadi HC Consulting berbasis teknologi yang menyediakan solusi terintegrasi dan berbasis data untuk transformasi manajemen talenta organisasi.",
+    "missionDesc1": "Bilotus hadir sebagai mitra strategis organisasi dalam mengoptimalkan manajemen talenta. Kami menyediakan solusi terintegrasi berbasis data yang mencakup assessment komprehensif untuk mengidentifikasi dan mengevaluasi potensi talenta, program pengembangan terstruktur untuk membangun kompetensi yang terukur, serta platform teknologi untuk meningkatkan efisiensi dan mendukung keputusan strategis.",
+    "missionDesc3": "Sejak 2016, kami berkomitmen memberikan solusi yang akurat, reliable, dan insights mendalam untuk mendorong keunggulan bisnis organisasi Anda.",
 
     "servicesTitle": "Layanan Kami",
     "service1Title": "Talent Consulting Services",
@@ -101,15 +103,21 @@
 
     "cycleDiscoverTitle": "Discover",
     "cycleDiscoverSubtitle": "Menemukan & Mengevaluasi Talenta Terbaik",
-    "cycleDiscoverDesc": "Melalui Talent Consulting Services, kami membantu mengidentifikasi potensi tersembunyi, merekrut talenta unggul, serta memberikan advisory strategis untuk keputusan SDM yang tepat.",
+    "cycleDiscoverDesc": "Melalui", 
+    "cycleDiscoverDesc1":"Talent Consulting Services",
+    "cycleDiscoverDesc2":", kami membantu mengidentifikasi potensi tersembunyi, merekrut talenta unggul, serta memberikan advisory strategis untuk keputusan SDM yang tepat.",
 
     "cycleDevelopTitle": "Develop",
     "cycleDevelopSubtitle": "Mengembangkan Kompetensi Secara Terstruktur",
-    "cycleDevelopDesc": "Melalui Talent Development Programs, kami membangun technical, behavioral, dan core competencies melalui berbagai metode pembelajaran yang disesuaikan dengan kebutuhan organisasi.",
+    "cycleDevelopDesc": "Melalui",
+    "cycleDevelopDesc1": "Talent Development Programs",
+    "cycleDevelopDesc2": ", kami membangun technical, behavioral, dan core competencies melalui berbagai metode pembelajaran yang disesuaikan dengan kebutuhan organisasi.",
 
     "cycleOptimizeTitle": "Optimize",
     "cycleOptimizeSubtitle": "Mengoptimalkan Kinerja dengan Teknologi",
-    "cycleOptimizeDesc": "Melalui HR Tech Solutions, kami mendukung optimalisasi berkelanjutan dengan platform teknologi terintegrasi untuk efisiensi dan akurasi pengelolaan SDM."
+    "cycleOptimizeDesc": "Melalui",
+    "cycleOptimizeDesc1":"HR Tech Solutions",
+    "cycleOptimizeDesc2": ", kami mendukung optimalisasi berkelanjutan dengan platform teknologi terintegrasi untuk efisiensi dan akurasi pengelolaan SDM."
   },
   "clients": {
     "heroTitle": "Mitra Terpercaya Lintas Industri",
