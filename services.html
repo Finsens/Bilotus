@@ -58,6 +58,10 @@
     </div>
       <!-- NAV Mobile (Dropdown) -->
   <nav id="mobileMenu" class="hidden flex-col space-y-4 px-4 py-4 bg-[var(--color-lightest)] md:hidden shadow-lg">
+    <div class="flex md:hidden gap-2 justify-center mt-4">
+      <button onclick="setLanguage('id')" class="px-2 py-1 text-sm font-bold text-[var(--color-deep-blue)] bg-[var(--color-golden-yellow)] rounded">ID</button>
+      <button onclick="setLanguage('en')" class="px-2 py-1 text-sm font-bold text-[var(--color-deep-blue)] bg-[var(--color-golden-yellow)] rounded">EN</button>
+    </div>
     <a href="index.html#home" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.home">Home</a>
     <a href="aboutus.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.about">About Us</a>
     <a href="services.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.services">Services</a>
@@ -69,12 +73,16 @@
   </header>
 
   <!-- Hero Section -->
-  <section class="bg-gradient-to-r from-[var(--color-deep-blue)] to-[var(--color-muted-blue)] py-20">
+  <section class="section-home">
+    <div class="overlay"></div>
+    <div class="content">
     <div class="container mx-auto px-4 text-center">
-      <h1 class="text-4xl md:text-6xl font-bold mb-6 font-poppins text-[var(--color-lightest)]" data-i18n="services.heroTtitle">Layanan Kami</h1>
+      <h1 class="text-4xl md:text-6xl font-bold mb-6 font-poppins text-[var(--color-lightest)]" data-i18n="services.heroTitle">Layanan Kami</h1>
       <p class="text-xl text-[var(--color-golden-yellow)] max-w-3xl mx-auto" data-i18n="services.heroSubtitle">
         Kami menyediakan tiga kategori layanan utama yang saling melengkapi untuk mendukung siklus manajemen talenta organisasi Anda secara menyeluruh
       </p>
+    </div>
+    </div>
     </div>
   </section>
 
@@ -88,9 +96,9 @@
           <img src="image/tcs.png" alt="Talent Assessment" class="rounded-lg shadow-lg w-full h-auto">
         </div>
         <div class="md:w-1/2">
-          <h2 class="text-2xl md:text-3xl font-bold mb-4 font-poppins" data-i18n="services.1Title">Talent Consulting Services</h2>
-          <p class="text-lg mb-4" data-i18n="services.1Desc1">Layanan konsultasi komprehensif untuk menemukan, mengevaluasi, dan mengoptimalkan talenta dalam organisasi Anda.</p>
-          <p class="text-lg mb-4" data-i18n="services.1Desc2">Kami membantu Anda membuat keputusan strategis berbasis data melalui assessment psikometri, executive search, dan advisory untuk penyelarasan strategi SDM dengan tujuan bisnis.</p>
+          <h2 class="text-2xl md:text-3xl font-bold mb-4 font-poppins" data-i18n="services.section1Title">Talent Consulting Services</h2>
+          <p class="text-lg mb-4" data-i18n="services.section1Desc1">Layanan konsultasi komprehensif untuk menemukan, mengevaluasi, dan mengoptimalkan talenta dalam organisasi Anda.</p>
+          <p class="text-lg mb-4" data-i18n="services.section1Desc2">Kami membantu Anda membuat keputusan strategis berbasis data melalui assessment psikometri, executive search, dan advisory untuk penyelarasan strategi SDM dengan tujuan bisnis.</p>
         </div>
       </div>
 
@@ -100,9 +108,9 @@
           <img src="image/tdp.png" alt="Talent Search" class="rounded-lg shadow-lg w-full h-auto">
         </div>
         <div class="md:w-1/2">
-          <h2 class="text-2xl md:text-3xl font-bold mb-4 font-poppins" data-i18n="services.2Title">Talent Development Programs</h2>
-          <p class="text-lg mb-4" data-i18n="services.2Desc1">Program pengembangan kompetensi yang dirancang khusus sesuai kebutuhan organisasi Anda.</p>
-          <p class="text-lg mb-4" data-i18n="services.2Desc2">Tersedia dalam berbagai format pembelajaran—dari classroom training, blended learning, hingga experiential outdoor programs—untuk membangun technical, behavioral, dan core competencies secara terukur.</p>
+          <h2 class="text-2xl md:text-3xl font-bold mb-4 font-poppins" data-i18n="services.section2Title">Talent Development Programs</h2>
+          <p class="text-lg mb-4" data-i18n="services.section2Desc1">Program pengembangan kompetensi yang dirancang khusus sesuai kebutuhan organisasi Anda.</p>
+          <p class="text-lg mb-4" data-i18n="services.section2Desc2">Tersedia dalam berbagai format pembelajaran—dari classroom training, blended learning, hingga experiential outdoor programs—untuk membangun technical, behavioral, dan core competencies secara terukur.</p>
         </div>
       </div>
 
@@ -112,9 +120,9 @@
           <img src="image/hts.png" alt="Talent Academy" class="rounded-lg shadow-lg w-full h-auto">
         </div>
         <div class="md:w-1/2">
-          <h2 class="text-2xl md:text-3xl font-bold mb-4 font-poppins" data-i18n="services.3Title">HR Tech Solutions</h2>
-          <p class="text-lg mb-4" data-i18n="services.3Desc1">Platform teknologi terintegrasi berbasis AI untuk mengotomasi dan mempermudah seluruh proses manajemen SDM.</p>
-          <p class="text-lg mb-4" data-i18n="services.3Desc2">Dari HRIS, penggajian, assessment online, talent mapping, hingga employee self-service.
+          <h2 class="text-2xl md:text-3xl font-bold mb-4 font-poppins" data-i18n="services.section3Title">HR Tech Solutions</h2>
+          <p class="text-lg mb-4" data-i18n="services.section3Desc1">Platform teknologi terintegrasi berbasis AI untuk mengotomasi dan mempermudah seluruh proses manajemen SDM.</p>
+          <p class="text-lg mb-4" data-i18n="services.section3Desc2">Dari HRIS, penggajian, assessment online, talent mapping, hingga employee self-service.
             Satu platform untuk semua kebutuhan HR Anda dengan akurasi tinggi dan efisiensi maksimal.</p>
         </div>
       </div>
