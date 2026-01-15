@@ -43,11 +43,14 @@
 
     "servicesTitle": "Layanan Kami",
     "service1Title": "Talent Consulting Services",
-    "service1Desc": "Layanan konsultasi komprehensif untuk menemukan, mengevaluasi, dan mengoptimalkan talenta.",
+    "section1Desc1": "Layanan konsultasi komprehensif untuk menemukan, mengevaluasi, dan mengoptimalkan talenta dalam organisasi Anda.",
+    "section1Desc2": "Kami membantu Anda membuat keputusan strategis berbasis data melalui assessment psikometri, executive search, dan advisory untuk penyelarasan strategi SDM dengan tujuan bisnis.",
     "service2Title": "Talent Development Programs",
-    "service2Desc": "Program pengembangan kompetensi yang dirancang sesuai kebutuhan organisasi.",
+    "section2Desc1": "Program pengembangan kompetensi yang dirancang khusus sesuai kebutuhan organisasi Anda.",
+    "section2Desc2": "Tersedia dalam berbagai format pembelajaran dari classroom training, blended learning, hingga experiential outdoor programs—untuk membangun technical, behavioral, dan core competencies secara terukur.",
     "service3Title": "HR Tech Solutions",
-    "service3Desc": "Platform teknologi terintegrasi berbasis AI untuk mendukung manajemen SDM.",
+    "section3Desc1": "Platform teknologi terintegrasi berbasis AI untuk mengotomasi dan mempermudah seluruh proses manajemen SDM.",
+    "section3Desc2": "Mencakup HRIS, penggajian, assessment online, talent mapping, hingga employee self-service dalam satu platform yang efisien dan akurat.",
 
     "clientsTitle": "Klien Kami",
     "clientsSubtitle": "Kami telah dipercaya oleh berbagai organisasi dari beragam industri."
@@ -92,7 +95,7 @@
 
     "section2Title": "Talent Development Programs",
     "section2Desc1": "Program pengembangan kompetensi yang dirancang khusus sesuai kebutuhan organisasi Anda.",
-    "section2Desc2": "Tersedia dalam berbagai format pembelajaran—dari classroom training, blended learning, hingga experiential outdoor programs—untuk membangun technical, behavioral, dan core competencies secara terukur.",
+    "section2Desc2": "Tersedia dalam berbagai format pembelajaran dari classroom training, blended learning, hingga experiential outdoor programs—untuk membangun technical, behavioral, dan core competencies secara terukur.",
 
     "section3Title": "HR Tech Solutions",
     "section3Desc1": "Platform teknologi terintegrasi berbasis AI untuk mengotomasi dan mempermudah seluruh proses manajemen SDM.",
