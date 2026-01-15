@@ -43,12 +43,15 @@
 
     "servicesTitle": "Our Services",
     "service1Title": "Talent Consulting Services",
-    "service1Desc": "Comprehensive consulting services to identify, evaluate, and optimize talent.",
+   "section1Desc1": "Comprehensive consulting services to identify, evaluate, and optimize talent within your organization.",
+    "section1Desc2": "We help you make data-driven strategic decisions through psychometric assessments, executive search, and advisory services to align HR strategies with business objectives.",
     "service2Title": "Talent Development Programs",
-    "service2Desc": "Competency development programs tailored to organizational needs.",
+    "section2Desc1": "Competency development programs tailored to organizational needs.",
+    "section2Desc2": "Available in various learning formats from classroom training, blended learning, to experiential outdoor programs—building technical, behavioral, and core competencies in a measurable way.",
     "service3Title": "HR Tech Solutions",
-    "service3Desc": "AI-powered integrated technology platforms for efficient HR management.",
-
+    "section3Desc1": "AI-powered integrated technology platforms that automate and streamline HR management processes.",
+    "section3Desc2": "Covering HRIS, payroll, online assessments, talent mapping, and employee self-service within a single efficient and accurate system.",
+    
     "clientsTitle": "Our Clients",
     "clientsSubtitle": "Trusted by organizations across various industries."
   },
