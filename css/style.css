@@ -114,6 +114,31 @@ section {
   align-items: center;
 }
 
+.section-home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-image: url("../image/teratai.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.section-home .overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(10, 40, 90, 0.45);
+}
+
+.section-home .content {
+  max-width: 900px;
+  text-align: center;
+  padding: 40px;
+  position: relative;
+  z-index: 1;
+}
+
 .section-filosofi {
   min-height: 100vh;
   display: flex;
