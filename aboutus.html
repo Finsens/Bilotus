@@ -58,6 +58,10 @@
     </div>
       <!-- NAV Mobile (Dropdown) -->
   <nav id="mobileMenu" class="hidden flex-col space-y-4 px-4 py-4 bg-[var(--color-lightest)] md:hidden shadow-lg">
+    <div class="flex md:hidden gap-2 justify-center mt-4">
+      <button onclick="setLanguage('id')" class="px-2 py-1 text-sm font-bold text-[var(--color-deep-blue)] bg-[var(--color-golden-yellow)] rounded">ID</button>
+      <button onclick="setLanguage('en')" class="px-2 py-1 text-sm font-bold text-[var(--color-deep-blue)] bg-[var(--color-golden-yellow)] rounded">EN</button>
+    </div>
     <a href="index.html#home" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.home">Home</a>
     <a href="aboutus.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.about">About Us</a>
     <a href="services.html" class="block text-[var(--color-deep-blue)] font-semibold" data-i18n="nav.services">Services</a>
@@ -125,30 +129,26 @@
   <section class="bg-gradient-to-r from-[var(--color-golden-yellow)] to-[var(--color-lightest)] text-[var(--color-deep-blue)]">
     <div class="container mx-auto px-4 text-center">
       <h2 class="text-3xl font-bold mb-4" data-i18n="about.approachTitle">Pendekatan Terintegrasi Kami :</h2>
-      <h3 class="text-3xl font-bold mb-4" data-i18n="about.approachSubtitle">Dari Filosofi ke Hasil Nyata</h3>
-          <ul class="list-disc pl-6 space-y-2 text-left">
+      <h3 class="text-3xl font-bold mb-8" data-i18n="about.approachSubtitle">Dari Filosofi ke Hasil Nyata</h3>
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div class="p-8 rounded-xl shadow-lef service-card bg-[var(--color-lightest)]">
-            <li class="text-2xl font-bold" data-i18n="about.approachItem1Title">Filosofi Inti</li>
+            <p class="text-2xl font-bold mb-4" data-i18n="about.approachItem1Title">Filosofi Inti</p>
             <p data-i18n="about.approachItem1Desc">Menggali Potensi Setiap Individu</p>
             </div>
             <div class="p-8 rounded-xl shadow-lef service-card bg-[var(--color-lightest)]">
-            <li class="text-2xl font-bold" data-i18n="about.approachItem3Title">Metodologi Teruji</li>
+            <p class="text-2xl font-bold mb-4" data-i18n="about.approachItem3Title">Metodologi Teruji</p>
             <p data-i18n="about.approachItem3Desc">Metodologi Berbasis Sains Dan Kompetensi</p>
             </div>
             <div class="p-8 rounded-xl shadow-lef service-card bg-[var(--color-lightest)]">
-            <li class="text-2xl font-bold" data-i18n="about.approachItem4Title">Platform Teknologi</li>
+            <p class="text-2xl font-bold mb-4" data-i18n="about.approachItem4Title">Platform Teknologi</p>
             <p data-i18n="about.approachItem4Desc">Teknologi Untuk Efisiensi Dan Akurasi</p>
             </div>
             <div class="p-8 rounded-xl shadow-lef service-card bg-[var(--color-lightest)]">
-            <li class="text-2xl font-bold" data-i18n="about.approachItem2Title">Keunggulan Bisnis</li>
+            <p class="text-2xl font-bold mb-4" data-i18n="about.approachItem2Title">Keunggulan Bisnis</p>
             <p data-i18n="about.approachItem2Desc">Keputusan Strategis Berbasis Data</p>
             </div>
-            </ul>
+          </div>
       </div>
-      <a href="services.html" class="btn-gradient inline-flex items-center" data-i18n="about_services_cta">
-        Lihat Layanan Kami
-        <i class="fas fa-arrow-right ml-2"></i>
-      </a>
     </div>
   </section>
 
